@@ -1,0 +1,18 @@
+name: Country Borders
+id: 142ac5ca-6d12-11ec-bfb1-34f39abc1078
+css_file: src/note_models/Country Borders/style.css
+latex_pre: "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\
+  \\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\
+  \\begin{document}\n"
+fields:
+- name: Country Name
+  font: Arial
+- name: Country Borders
+  font: Arial
+templates:
+- name: Card 1
+  html_file: src/note_models/Country Borders/Card 1.html
+required_fields_per_template:
+- - 0
+  - any
+  - - 0

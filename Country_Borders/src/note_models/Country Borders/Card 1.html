@@ -1,0 +1,39 @@
+{{Country Name}}
+
+
+--
+
+{{FrontSide}}
+
+<hr id=answer>
+
+<ul id="myList"></ul>
+	<script>
+		let data = {{Country Borders}};
+  		let list = document.getElementById("myList");
+
+  		data.forEach((item) => {
+  			let li = document.createElement("li");
+  			li.innerText = item;
+  			list.appendChild(li);
+			});
+    </script>
+
+<div class="value value--image" id="map-image">
+</div>
+
+	<script>
+		let country = "{{Country Name}}".split(' ').join('_');
+		country = country.toLowerCase();
+		country = "https://github.com/anki-geo/ultimate-geography/blob/master/src/media/maps/ug-map-"+country+".png?raw=true";
+
+		let mapImage = document.getElementById("map-image");
+		let imageLink = document.createElement("img");
+
+		imageLink.src = country;
+
+		mapImage.appendChild(imageLink);
+		
+    </script>
+
+<iframe src="https://en.m.wikipedia.org/wiki/{{Country Name}}" seamless="seamless"></iframe>

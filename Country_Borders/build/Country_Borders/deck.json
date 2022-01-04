@@ -1,0 +1,2894 @@
+{
+    "__type__": "Deck",
+    "children": [],
+    "crowdanki_uuid": "1429dbfc-6d12-11ec-8781-34f39abc1078",
+    "deck_config_uuid": "1429dbfd-6d12-11ec-9adf-34f39abc1078",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "1429dbfd-6d12-11ec-9adf-34f39abc1078",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 0,
+                "perDay": 4
+            },
+            "newGatherPriority": 0,
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "newSortOrder": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 200
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "Country Borders",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\nul {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n\niframe {\n  height: 100vh; \n  width:100%;\n} \n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Country Name",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Country Borders",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Country Borders",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<ul id=\"myList\"></ul>\n\t<script>\n\t\tlet data = {{Country Borders}};\n  \t\tlet list = document.getElementById(\"myList\");\n\n  \t\tdata.forEach((item) => {\n  \t\t\tlet li = document.createElement(\"li\");\n  \t\t\tli.innerText = item;\n  \t\t\tlist.appendChild(li);\n\t\t\t});\n    </script>\n\n<div class=\"value value--image\" id=\"map-image\">\n</div>\n\n\t<script>\n\t\tlet country = \"{{Country Name}}\".split(' ').join('_');\n\t\tcountry = country.toLowerCase();\n\t\tcountry = \"https://github.com/anki-geo/ultimate-geography/blob/master/src/media/maps/ug-map-\"+country+\".png?raw=true\";\n\n\t\tlet mapImage = document.getElementById(\"map-image\");\n\t\tlet imageLink = document.createElement(\"img\");\n\n\t\timageLink.src = country;\n\n\t\tmapImage.appendChild(imageLink);\n\t\t\n    </script>\n\n<iframe src=\"https://en.m.wikipedia.org/wiki/{{Country Name}}\" seamless=\"seamless\"></iframe>",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "{{Country Name}}",
+                    "scratchPad": 0
+                }
+            ],
+            "type": 0,
+            "vers": []
+        }
+    ],
+    "notes": [
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Afghanistan",
+                "[\"China\", \"Iran\", \"Pakistan\", \"Tajikistan\", \"Turkmenistan\", \"Uzbekistan\"]"
+            ],
+            "flags": 0,
+            "guid": "FhcinaZ4d0",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Albania",
+                "[\"Greece\", \"Montenegro\", \"North Macedonia\", \"Serbia\"]"
+            ],
+            "flags": 0,
+            "guid": "g+CWN6*cG2",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Algeria",
+                "[\"Libya\", \"Mali\", \"Mauritania\", \"Morocco\", \"Niger\", \"Tunisia\", \"Western Sahara\"]"
+            ],
+            "flags": 0,
+            "guid": "LO}}=F2%n@",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "American Samoa",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "G#a]l,GFF!",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Andorra",
+                "[\"France\", \"Spain\"]"
+            ],
+            "flags": 0,
+            "guid": "O{9:x`2dR?",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Angola",
+                "[\"Democratic Republic of the Congo\", \"Namibia\", \"Republic of the Congo\", \"Zambia\"]"
+            ],
+            "flags": 0,
+            "guid": "qv=mA{b&Y&",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Anguilla",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "F#O`kKn+,I",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Antarctica",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "lvy5:aV/<}",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Antigua and Barbuda",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "o`N.EKZ`>J",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Argentina",
+                "[\"Bolivia\", \"Brazil\", \"Chile\", \"Paraguay\", \"Uruguay\"]"
+            ],
+            "flags": 0,
+            "guid": "h]pQH6Kj~-",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Armenia",
+                "[\"Azerbaijan\", \"Georgia\", \"Iran\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "pg@NUk(R!Z",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Aruba",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "v^yHO%Qn_:",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Australia",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "nFN/70W04W",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Austria",
+                "[\"Czechia\", \"Germany\", \"Hungary\", \"Italy\", \"Liechtenstein\", \"Slovakia\", \"Slovenia\", \"Switzerland\"]"
+            ],
+            "flags": 0,
+            "guid": "sT5UaTCOAA",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Azerbaijan",
+                "[\"Armenia\", \"Georgia\", \"Iran\", \"Russian Federation\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "iB|vE6DWJj",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bahamas",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "K_Gr~H[Ht@",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bahrain",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "QOu;_d1X%`",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bangladesh",
+                "[\"India\", \"Myanmar\"]"
+            ],
+            "flags": 0,
+            "guid": "w0lvPl3,O.",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Barbados",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "QA$CpO:iA0",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Belarus",
+                "[\"Latvia\", \"Lithuania\", \"Poland\", \"Russian Federation\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "g#uHcESyod",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Belgium",
+                "[\"France\", \"Germany\", \"Luxembourg\", \"Netherlands\"]"
+            ],
+            "flags": 0,
+            "guid": "gk+*8z%-,9",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Belize",
+                "[\"Guatemala\", \"Mexico\"]"
+            ],
+            "flags": 0,
+            "guid": "ovux`Q6LRx",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Benin",
+                "[\"Burkina Faso\", \"Niger\", \"Nigeria\", \"Togo\"]"
+            ],
+            "flags": 0,
+            "guid": "MD?3Lk>E$t",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bermuda",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "g$,EPXlTL+",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bhutan",
+                "[\"China\", \"India\"]"
+            ],
+            "flags": 0,
+            "guid": "Fi0Tjs?p8j",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bolivia",
+                "[\"Argentina\", \"Brazil\", \"Chile\", \"Paraguay\", \"Peru\"]"
+            ],
+            "flags": 0,
+            "guid": "vd}1ozH}%o",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bonaire, Sint Eustatius and Saba",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "ll{kx<d*g+",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bosnia and Herzegovina",
+                "[\"Croatia\", \"Montenegro\", \"Serbia\"]"
+            ],
+            "flags": 0,
+            "guid": "DkMGEu(XHZ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Botswana",
+                "[\"Namibia\", \"South Africa\", \"Zambia\", \"Zimbabwe\"]"
+            ],
+            "flags": 0,
+            "guid": "GE/](BC+4d",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Brazil",
+                "[\"Argentina\", \"Bolivia\", \"Colombia\", \"French Guiana\", \"Guyana\", \"Paraguay\", \"Peru\", \"Suriname\", \"Uruguay\", \"Venezuela\"]"
+            ],
+            "flags": 0,
+            "guid": "kYbrCxyL=W",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "British Indian Ocean Territory",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "pmFx:P#YYv",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Brunei Darussalam",
+                "[\"Malaysia\"]"
+            ],
+            "flags": 0,
+            "guid": "b`KB6Pgq~u",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Bulgaria",
+                "[\"Greece\", \"North Macedonia\", \"Romania\", \"Serbia\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "ux7r(,VC+/",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Burkina Faso",
+                "[\"Benin\", \"Cote d’Ivoire\", \"Ghana\", \"Mali\", \"Niger\", \"Togo\"]"
+            ],
+            "flags": 0,
+            "guid": "c3-O;BLa^n",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Burundi",
+                "[\"Democratic Republic of the Congo\", \"Rwanda\", \"Tanzania\"]"
+            ],
+            "flags": 0,
+            "guid": "Lu5BC0dk|o",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cabo Verde",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "Gf^b@gQTmF",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cambodia",
+                "[\"Lao People's Democratic Republic\", \"Thailand\", \"Viet Nam\"]"
+            ],
+            "flags": 0,
+            "guid": "BFrgvLd,]9",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cameroon",
+                "[\"Central African Republic\", \"Chad\", \"Equatorial Guinea\", \"Gabon\", \"Nigeria\", \"Republic of the Congo\"]"
+            ],
+            "flags": 0,
+            "guid": "MPPdP6MR^u",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Canada",
+                "[\"United States of America\"]"
+            ],
+            "flags": 0,
+            "guid": "H~cpvcPfRQ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Central African Republic",
+                "[\"Cameroon\", \"Chad\", \"Democratic Republic of the Congo\", \"Republic of the Congo\", \"South Sudan\", \"Sudan\"]"
+            ],
+            "flags": 0,
+            "guid": "m${w?hr8!p",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chad",
+                "[\"Cameroon\", \"Central African Republic\", \"Libya\", \"Niger\", \"Nigeria\", \"Sudan\"]"
+            ],
+            "flags": 0,
+            "guid": "RbAn7S#{V~",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Chile",
+                "[\"Argentina\", \"Bolivia\", \"Peru\"]"
+            ],
+            "flags": 0,
+            "guid": "b4tYPS1e&u",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "China",
+                "[\"Afghanistan\", \"Bhutan\", \"Hong Kong\", \"India\", \"Kazakhstan\", \"Kyrgyzstan\", \"Lao People's Democratic Republic\", \"Macao\", \"Mongolia\", \"Myanmar\", \"Nepal\", \"North Korea\", \"Pakistan\", \"Russian Federation\", \"Tajikistan\", \"Viet Nam\"]"
+            ],
+            "flags": 0,
+            "guid": "A|2LI56RtD",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Colombia",
+                "[\"Brazil\", \"Ecuador\", \"Panama\", \"Peru\", \"Venezuela\"]"
+            ],
+            "flags": 0,
+            "guid": "Mc~UwYPrY*",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Comoros",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "QVe-)1H96~",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Costa Rica",
+                "[\"Nicaragua\", \"Panama\"]"
+            ],
+            "flags": 0,
+            "guid": "b`V$l>f^hQ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cote d’Ivoire",
+                "[\"Burkina Faso\", \"Ghana\", \"Guinea\", \"Liberia\", \"Mali\"]"
+            ],
+            "flags": 0,
+            "guid": "k1*F$;a}R=",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Croatia",
+                "[\"Bosnia and Herzegovina\", \"Hungary\", \"Montenegro\", \"Serbia\", \"Slovenia\"]"
+            ],
+            "flags": 0,
+            "guid": "t%6u,5{aIA",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cuba",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "c|u34DkvdH",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Curacao",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "t%}]f}~~Gz",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Cyprus",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "M@mE1vaydg",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Czechia",
+                "[\"Austria\", \"Germany\", \"Poland\", \"Slovakia\"]"
+            ],
+            "flags": 0,
+            "guid": "iezOBOYTlO",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Democratic Republic of the Congo",
+                "[\"Angola\", \"Burundi\", \"Central African Republic\", \"Republic of the Congo\", \"Rwanda\", \"South Sudan\", \"Tanzania\", \"Uganda\", \"Zambia\"]"
+            ],
+            "flags": 0,
+            "guid": "KRtkGe~F2n",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Denmark",
+                "[\"Germany\"]"
+            ],
+            "flags": 0,
+            "guid": "G1NAA:^,-A",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Djibouti",
+                "[\"Eritrea\", \"Ethiopia\", \"Somalia\"]"
+            ],
+            "flags": 0,
+            "guid": "cifb17xaI$",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dominica",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "l&Je>e,+e$",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Dominican Republic",
+                "[\"Haiti\"]"
+            ],
+            "flags": 0,
+            "guid": "An.j`3bH*K",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ecuador",
+                "[\"Colombia\", \"Peru\"]"
+            ],
+            "flags": 0,
+            "guid": "p+C+)P)%gG",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Egypt",
+                "[\"Israel\", \"Libya\", \"Palestine, State of\", \"Sudan\"]"
+            ],
+            "flags": 0,
+            "guid": "j2/J6IK:FZ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "El Salvador",
+                "[\"Guatemala\", \"Honduras\"]"
+            ],
+            "flags": 0,
+            "guid": "p:B[K(~r^P",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Equatorial Guinea",
+                "[\"Cameroon\", \"Gabon\"]"
+            ],
+            "flags": 0,
+            "guid": "GZ4~*f_VVG",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eritrea",
+                "[\"Djibouti\", \"Ethiopia\", \"Sudan\"]"
+            ],
+            "flags": 0,
+            "guid": "DQ/csVZBM9",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Estonia",
+                "[\"Latvia\", \"Russian Federation\"]"
+            ],
+            "flags": 0,
+            "guid": "e)]9#j;W!D",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Eswatini",
+                "[\"Mozambique\", \"South Africa\"]"
+            ],
+            "flags": 0,
+            "guid": "qidBf9,r8P",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ethiopia",
+                "[\"Djibouti\", \"Eritrea\", \"Kenya\", \"Somalia\", \"South Sudan\", \"Sudan\"]"
+            ],
+            "flags": 0,
+            "guid": "s}wCBU0x<.",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Fiji",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "zd9TQ|WL]>",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Finland",
+                "[\"Norway\", \"Russian Federation\", \"Sweden\"]"
+            ],
+            "flags": 0,
+            "guid": "rI,f{]ibyJ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "France",
+                "[\"Andorra\", \"Belgium\", \"Germany\", \"Italy\", \"Luxembourg\", \"Monaco\", \"Spain\", \"Switzerland\"]"
+            ],
+            "flags": 0,
+            "guid": "yPAUy9K(I~",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "French Guiana",
+                "[\"Brazil\", \"Suriname\"]"
+            ],
+            "flags": 0,
+            "guid": "gZu9JVin[_",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "French Polynesia",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "Pq>q;fu:O#",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "French Southern Territories",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "H&;jF|Iv*G",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gabon",
+                "[\"Cameroon\", \"Equatorial Guinea\", \"Republic of the Congo\"]"
+            ],
+            "flags": 0,
+            "guid": "sK@XdeP1j:",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gambia",
+                "[\"Senegal\"]"
+            ],
+            "flags": 0,
+            "guid": "n]n(y<|=:)",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Georgia",
+                "[\"Armenia\", \"Azerbaijan\", \"Russian Federation\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "k|oa+j6tCv",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Germany",
+                "[\"Austria\", \"Belgium\", \"Czechia\", \"Denmark\", \"France\", \"Luxembourg\", \"Netherlands\", \"Poland\", \"Switzerland\"]"
+            ],
+            "flags": 0,
+            "guid": "k3va@y8FP=",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ghana",
+                "[\"Burkina Faso\", \"Cote d’Ivoire\", \"Togo\"]"
+            ],
+            "flags": 0,
+            "guid": "BYRi{X>u2L",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Gibraltar",
+                "[\"Spain\"]"
+            ],
+            "flags": 0,
+            "guid": "inAMp)?-!",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Greece",
+                "[\"Albania\", \"Bulgaria\", \"North Macedonia\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "JPO6[&D_!C",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Greenland",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "g@X#T[rN6v",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Grenada",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "IYK9]OcaOh",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guadeloupe",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "yR[l-UQ)+I",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guam",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "GnNb?aI6C6",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guatemala",
+                "[\"Belize\", \"El Salvador\", \"Honduras\", \"Mexico\"]"
+            ],
+            "flags": 0,
+            "guid": "AJqQl`vH16",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guernsey",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "W`Ou0,^9G",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guinea",
+                "[\"Cote d’Ivoire\", \"Guinea-Bissau\", \"Liberia\", \"Mali\", \"Senegal\", \"Sierra Leone\"]"
+            ],
+            "flags": 0,
+            "guid": "NWzAaiT&d|",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guinea-Bissau",
+                "[\"Guinea\", \"Senegal\"]"
+            ],
+            "flags": 0,
+            "guid": "w0O]Ez*;[&",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Guyana",
+                "[\"Brazil\", \"Suriname\", \"Venezuela\"]"
+            ],
+            "flags": 0,
+            "guid": "wO}:/.~LXx",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Haiti",
+                "[\"Dominican Republic\"]"
+            ],
+            "flags": 0,
+            "guid": "DzF(M0;M#I",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Holy See",
+                "[\"Italy\"]"
+            ],
+            "flags": 0,
+            "guid": "HF</Iw.ngJ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Honduras",
+                "[\"El Salvador\", \"Guatemala\", \"Nicaragua\"]"
+            ],
+            "flags": 0,
+            "guid": "gu$7&US^(4",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hong Kong",
+                "[\"China\"]"
+            ],
+            "flags": 0,
+            "guid": "d*?.%N(9|d",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Hungary",
+                "[\"Austria\", \"Croatia\", \"Romania\", \"Serbia\", \"Slovakia\", \"Slovenia\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "e{ntuBI[k=",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Iceland",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "nqV%ODv;[f",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "India",
+                "[\"Bangladesh\", \"Bhutan\", \"China\", \"Myanmar\", \"Nepal\", \"Pakistan\"]"
+            ],
+            "flags": 0,
+            "guid": "jyR~64X>3%",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Indonesia",
+                "[\"Malaysia\", \"Papua New Guinea\", \"Timor-Leste\"]"
+            ],
+            "flags": 0,
+            "guid": "P,hr5wZ3fV",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Iran",
+                "[\"Afghanistan\", \"Armenia\", \"Azerbaijan\", \"Iraq\", \"Pakistan\", \"Turkey\", \"Turkmenistan\"]"
+            ],
+            "flags": 0,
+            "guid": "ks8%Gxj,k4",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Iraq",
+                "[\"Iran\", \"Jordan\", \"Kuwait\", \"Saudi Arabia\", \"Syrian Arab Republic\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "Iei9H?-Q3~",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ireland",
+                "[\"United Kingdom of Great Britain and Northern Ireland\"]"
+            ],
+            "flags": 0,
+            "guid": "jpl.5}ilj",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Isle of Man",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "&rWcy4=3e",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Israel",
+                "[\"Egypt\", \"Jordan\", \"Lebanon\", \"Palestine, State of\", \"Syrian Arab Republic\"]"
+            ],
+            "flags": 0,
+            "guid": "u5eCmyChgQ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Italy",
+                "[\"Austria\", \"France\", \"Holy See\", \"San Marino\", \"Slovenia\", \"Switzerland\"]"
+            ],
+            "flags": 0,
+            "guid": "jJsv6p,J0.",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Jamaica",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "q:Mb7OYv`L",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Japan",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "F`1qlDMIxR",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Jersey",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "c)<Ie!i$)q",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Jordan",
+                "[\"Iraq\", \"Israel\", \"Palestine, State of\", \"Saudi Arabia\", \"Syrian Arab Republic\"]"
+            ],
+            "flags": 0,
+            "guid": "e8.~:$n.F*",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kazakhstan",
+                "[\"China\", \"Kyrgyzstan\", \"Russian Federation\", \"Turkmenistan\", \"Uzbekistan\"]"
+            ],
+            "flags": 0,
+            "guid": "OCm3XSacTq",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kenya",
+                "[\"Ethiopia\", \"Somalia\", \"South Sudan\", \"Tanzania\", \"Uganda\"]"
+            ],
+            "flags": 0,
+            "guid": "MJDUX|3CYn",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kiribati",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "p`+n0WaMD]",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kuwait",
+                "[\"Iraq\", \"Saudi Arabia\"]"
+            ],
+            "flags": 0,
+            "guid": "l6C=,=(1>i",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Kyrgyzstan",
+                "[\"China\", \"Kazakhstan\", \"Tajikistan\", \"Uzbekistan\"]"
+            ],
+            "flags": 0,
+            "guid": "kt1[`RaQLl",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lao People's Democratic Republic",
+                "[\"Cambodia\", \"China\", \"Myanmar\", \"Thailand\", \"Viet Nam\"]"
+            ],
+            "flags": 0,
+            "guid": "JrG<B{MjQZ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Latvia",
+                "[\"Belarus\", \"Estonia\", \"Lithuania\", \"Russian Federation\"]"
+            ],
+            "flags": 0,
+            "guid": "PZb)&wG2w%",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lebanon",
+                "[\"Israel\", \"Syrian Arab Republic\"]"
+            ],
+            "flags": 0,
+            "guid": "k.)_TIAHTL",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lesotho",
+                "[\"South Africa\"]"
+            ],
+            "flags": 0,
+            "guid": "E&7M?}=Fhj",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Liberia",
+                "[\"Cote d’Ivoire\", \"Guinea\", \"Sierra Leone\"]"
+            ],
+            "flags": 0,
+            "guid": "mVB%6c2B,,",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Libya",
+                "[\"Algeria\", \"Chad\", \"Egypt\", \"Niger\", \"Sudan\", \"Tunisia\"]"
+            ],
+            "flags": 0,
+            "guid": "e5(m>}?K.A",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Liechtenstein",
+                "[\"Austria\", \"Switzerland\"]"
+            ],
+            "flags": 0,
+            "guid": "bv!$v8Rl?U",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Lithuania",
+                "[\"Belarus\", \"Latvia\", \"Poland\", \"Russian Federation\"]"
+            ],
+            "flags": 0,
+            "guid": "z9i[I(4SP{",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Luxembourg",
+                "[\"Belgium\", \"France\", \"Germany\"]"
+            ],
+            "flags": 0,
+            "guid": "cy}B{%qKCo",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Macao",
+                "[\"China\"]"
+            ],
+            "flags": 0,
+            "guid": "DXd-(x`1Hq",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Madagascar",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "ptOSiZX7^-",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Malawi",
+                "[\"Mozambique\", \"Tanzania\", \"Zambia\"]"
+            ],
+            "flags": 0,
+            "guid": "D2`gJj6K*E",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Malaysia",
+                "[\"Brunei Darussalam\", \"Indonesia\", \"Thailand\"]"
+            ],
+            "flags": 0,
+            "guid": "Jf=}GGTyNn",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Maldives",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "d>np5YdQGs",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mali",
+                "[\"Algeria\", \"Burkina Faso\", \"Cote d’Ivoire\", \"Guinea\", \"Mauritania\", \"Niger\", \"Senegal\"]"
+            ],
+            "flags": 0,
+            "guid": "bP~4?*wTs?",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Malta",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "f?VfR3[$wG",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Martinique",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "Fw@McB[U&t",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mauritania",
+                "[\"Algeria\", \"Mali\", \"Senegal\", \"Western Sahara\"]"
+            ],
+            "flags": 0,
+            "guid": "i_<X=5}val",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mauritius",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "j:Fy`}TLcA",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mayotte",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "t2-z+?cP[)",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mexico",
+                "[\"Belize\", \"Guatemala\", \"United States of America\"]"
+            ],
+            "flags": 0,
+            "guid": "L6J/ZWB`n(",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Micronesia",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "EJ5~k:e!;0",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Moldova",
+                "[\"Romania\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "If;cgU3(g/",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Monaco",
+                "[\"France\"]"
+            ],
+            "flags": 0,
+            "guid": "y}aI.`+sp=",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mongolia",
+                "[\"China\", \"Russian Federation\"]"
+            ],
+            "flags": 0,
+            "guid": "OpGBi)WzB]",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Montenegro",
+                "[\"Albania\", \"Bosnia and Herzegovina\", \"Croatia\", \"Serbia\"]"
+            ],
+            "flags": 0,
+            "guid": "sB:n%e3@t[",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Montserrat",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "F1Ipn^Ipcn",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Morocco",
+                "[\"Algeria\", \"Spain\", \"Western Sahara\"]"
+            ],
+            "flags": 0,
+            "guid": "dl&ozfJ_ax",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Mozambique",
+                "[\"Eswatini\", \"Malawi\", \"South Africa\", \"Tanzania\", \"Zambia\", \"Zimbabwe\"]"
+            ],
+            "flags": 0,
+            "guid": "M=)xYexC6c",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Myanmar",
+                "[\"Bangladesh\", \"China\", \"India\", \"Lao People's Democratic Republic\", \"Thailand\"]"
+            ],
+            "flags": 0,
+            "guid": "heL9MaO.pk",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Namibia",
+                "[\"Angola\", \"Botswana\", \"South Africa\", \"Zambia\"]"
+            ],
+            "flags": 0,
+            "guid": "Qq%DNl8YL*",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nauru",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "ANsQ{2w!vp",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nepal",
+                "[\"China\", \"India\"]"
+            ],
+            "flags": 0,
+            "guid": "gE/NK*e_j$",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Netherlands",
+                "[\"Belgium\", \"Germany\"]"
+            ],
+            "flags": 0,
+            "guid": "j]jd%vdkR&",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "New Caledonia",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "lApel8<DJ[",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "New Zealand",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "v`!Q}s/m*.",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nicaragua",
+                "[\"Costa Rica\", \"Honduras\"]"
+            ],
+            "flags": 0,
+            "guid": "O17J>}.(K;",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Niger",
+                "[\"Algeria\", \"Benin\", \"Burkina Faso\", \"Chad\", \"Libya\", \"Mali\", \"Nigeria\"]"
+            ],
+            "flags": 0,
+            "guid": "l<=^SJ2K(j",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Nigeria",
+                "[\"Benin\", \"Cameroon\", \"Chad\", \"Niger\"]"
+            ],
+            "flags": 0,
+            "guid": "A}u1sYcWoZ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Niue",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "j~]&wgFA2",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "North Korea",
+                "[\"China\", \"Russian Federation\", \"South Korea\"]"
+            ],
+            "flags": 0,
+            "guid": "AL9JvglZhO",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "North Macedonia",
+                "[\"Albania\", \"Bulgaria\", \"Greece\", \"Serbia\"]"
+            ],
+            "flags": 0,
+            "guid": "e1*$HrFs>(",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Norway",
+                "[\"Finland\", \"Russian Federation\", \"Sweden\"]"
+            ],
+            "flags": 0,
+            "guid": "njy%wTn+Uj",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Oman",
+                "[\"Saudi Arabia\", \"United Arab Emirates\", \"Yemen\"]"
+            ],
+            "flags": 0,
+            "guid": "vr(,2qk1K=",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pakistan",
+                "[\"Afghanistan\", \"China\", \"India\", \"Iran\"]"
+            ],
+            "flags": 0,
+            "guid": "b2>2*I@rDw",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Palau",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "hZf1Z)e//~",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Palestine, State of",
+                "[\"Egypt\", \"Israel\", \"Jordan\"]"
+            ],
+            "flags": 0,
+            "guid": "lFT0I*3w]Z",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Panama",
+                "[\"Colombia\", \"Costa Rica\"]"
+            ],
+            "flags": 0,
+            "guid": "K-&$c5A>0)",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Papua New Guinea",
+                "[\"Indonesia\"]"
+            ],
+            "flags": 0,
+            "guid": "F%nK.G#Mr:",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Paraguay",
+                "[\"Argentina\", \"Bolivia\", \"Brazil\"]"
+            ],
+            "flags": 0,
+            "guid": "t06M.L}P3M",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Peru",
+                "[\"Bolivia\", \"Brazil\", \"Chile\", \"Colombia\", \"Ecuador\"]"
+            ],
+            "flags": 0,
+            "guid": "PLC$hfKV:W",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Philippines",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "PQ^cXE|30W",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Pitcairn",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "wg~hK9+/^x",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Poland",
+                "[\"Belarus\", \"Czechia\", \"Germany\", \"Lithuania\", \"Russian Federation\", \"Slovakia\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "6zRYR-Y2Q",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Portugal",
+                "[\"Spain\"]"
+            ],
+            "flags": 0,
+            "guid": "r00()XbbK^",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Puerto Rico",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "G!G&ekI8Ul",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Qatar",
+                "[\"Saudi Arabia\"]"
+            ],
+            "flags": 0,
+            "guid": "f-3nl`Ox4K",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Republic of the Congo",
+                "[\"Angola\", \"Cameroon\", \"Central African Republic\", \"Democratic Republic of the Congo\", \"Gabon\"]"
+            ],
+            "flags": 0,
+            "guid": "w0{?+w1z!4",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Reunion",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "t&jm0S$Q.r",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Romania",
+                "[\"Bulgaria\", \"Hungary\", \"Moldova\", \"Serbia\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "zMIz&3iQ-z",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Russian Federation",
+                "[\"Azerbaijan\", \"Belarus\", \"China\", \"Estonia\", \"Finland\", \"Georgia\", \"Kazakhstan\", \"Latvia\", \"Lithuania\", \"Mongolia\", \"North Korea\", \"Norway\", \"Poland\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "P_xGa;WBsP",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Rwanda",
+                "[\"Burundi\", \"Democratic Republic of the Congo\", \"Tanzania\", \"Uganda\"]"
+            ],
+            "flags": 0,
+            "guid": "yr`ysSJ0Pr",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Barthelemy",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "EbX.4mmZD?",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Helena,\"Ascension and Tristan da Cunha",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "C)$^45X$:D",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Kitts and Nevis",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "I`s7)-(Qk3",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Lucia",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "fHY0,T9xXZ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Martin",
+                "[\"Sint Maarten\"]"
+            ],
+            "flags": 0,
+            "guid": "H89J)cw8et",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Pierre and Miquelon",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "sc*fpW2m5e",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saint Vincent and the Grenadines",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "xkA<uz=Ch6",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Samoa",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "bKvsu;@nA}",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "San Marino",
+                "[\"Italy\"]"
+            ],
+            "flags": 0,
+            "guid": "bvOJzO#v>d",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sao Tome and Principe",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "L-&I^lTs^E",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Saudi Arabia",
+                "[\"Iraq\", \"Jordan\", \"Kuwait\", \"Oman\", \"Qatar\", \"United Arab Emirates\", \"Yemen\"]"
+            ],
+            "flags": 0,
+            "guid": "Gjc$^%nDg#",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Senegal",
+                "[\"Gambia\", \"Guinea\", \"Guinea-Bissau\", \"Mali\", \"Mauritania\"]"
+            ],
+            "flags": 0,
+            "guid": "Oi-7%n$WTJ",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Serbia",
+                "[\"Albania\", \"Bosnia and Herzegovina\", \"Bulgaria\", \"Croatia\", \"Hungary\", \"Montenegro\", \"North Macedonia\", \"Romania\"]"
+            ],
+            "flags": 0,
+            "guid": "CD(b/!rN>A",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Seychelles",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "lIU+lLqm6:",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sierra Leone",
+                "[\"Guinea\", \"Liberia\"]"
+            ],
+            "flags": 0,
+            "guid": "oVE8*;Yo*9",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Singapore",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "mcA}gbD4x3",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sint Maarten",
+                "[\"Saint Martin\"]"
+            ],
+            "flags": 0,
+            "guid": "k3@tHw.MC*",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Slovakia",
+                "[\"Austria\", \"Czechia\", \"Hungary\", \"Poland\", \"Ukraine\"]"
+            ],
+            "flags": 0,
+            "guid": "mvg8b&rgHU",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Slovenia",
+                "[\"Austria\", \"Croatia\", \"Hungary\", \"Italy\"]"
+            ],
+            "flags": 0,
+            "guid": "uur>S4a~w`",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Somalia",
+                "[\"Djibouti\", \"Ethiopia\", \"Kenya\"]"
+            ],
+            "flags": 0,
+            "guid": "jrz,d[}8;=",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "South Africa",
+                "[\"Botswana\", \"Eswatini\", \"Lesotho\", \"Mozambique\", \"Namibia\", \"Zimbabwe\"]"
+            ],
+            "flags": 0,
+            "guid": "vRSV.*v~0|",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "South Korea",
+                "[\"North Korea\"]"
+            ],
+            "flags": 0,
+            "guid": "nQ1q<{rdfq",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "South Sudan",
+                "[\"Central African Republic\", \"Democratic Republic of the Congo\", \"Ethiopia\", \"Kenya\", \"Sudan\", \"Uganda\"]"
+            ],
+            "flags": 0,
+            "guid": "DLaSu<8M*%",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Spain",
+                "[\"Andorra\", \"France\", \"Gibraltar\", \"Morocco\", \"Portugal\"]"
+            ],
+            "flags": 0,
+            "guid": "Ah6i@Ev>gs",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sri Lanka",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "KNBO-C><Gr",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sudan",
+                "[\"Central African Republic\", \"Chad\", \"Egypt\", \"Eritrea\", \"Ethiopia\", \"Libya\", \"South Sudan\"]"
+            ],
+            "flags": 0,
+            "guid": "j;j[M/`Tu5",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Suriname",
+                "[\"Brazil\", \"French Guiana\", \"Guyana\"]"
+            ],
+            "flags": 0,
+            "guid": "dfG3uY)Um5",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Svalbard and Jan Mayen",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "w1ngNX2Mx5",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Sweden",
+                "[\"Finland\", \"Norway\"]"
+            ],
+            "flags": 0,
+            "guid": "A=Gk,|n|kN",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Switzerland",
+                "[\"Austria\", \"France\", \"Germany\", \"Italy\", \"Liechtenstein\"]"
+            ],
+            "flags": 0,
+            "guid": "r%+vHaEH=m",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Syrian Arab Republic",
+                "[\"Iraq\", \"Israel\", \"Jordan\", \"Lebanon\", \"Turkey\"]"
+            ],
+            "flags": 0,
+            "guid": "F*-&mfNwOX",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Taiwan",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "bbE$-So=:8",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tajikistan",
+                "[\"Afghanistan\", \"China\", \"Kyrgyzstan\", \"Uzbekistan\"]"
+            ],
+            "flags": 0,
+            "guid": "t(P]?[i.jk",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tanzania",
+                "[\"Burundi\", \"Democratic Republic of the Congo\", \"Kenya\", \"Malawi\", \"Mozambique\", \"Rwanda\", \"Uganda\", \"Zambia\"]"
+            ],
+            "flags": 0,
+            "guid": "Fo-Zu]boFx",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Thailand",
+                "[\"Cambodia\", \"Lao People's Democratic Republic\", \"Malaysia\", \"Myanmar\"]"
+            ],
+            "flags": 0,
+            "guid": "KDlBC!F?6L",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Timor-Leste",
+                "[\"Indonesia\"]"
+            ],
+            "flags": 0,
+            "guid": "GIdzvOD/]q",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Togo",
+                "[\"Benin\", \"Burkina Faso\", \"Ghana\"]"
+            ],
+            "flags": 0,
+            "guid": "yjd|&V9cz",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tokelau",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "p$cpP}Iw0r",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tonga",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "FIG2?p?FpF",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Trinidad and Tobago",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "jvW@%}0+Eh",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tunisia",
+                "[\"Algeria\", \"Libya\"]"
+            ],
+            "flags": 0,
+            "guid": "womX9@Yyl4",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Turkey",
+                "[\"Armenia\", \"Azerbaijan\", \"Bulgaria\", \"Georgia\", \"Greece\", \"Iran\", \"Iraq\", \"Syrian Arab Republic\"]"
+            ],
+            "flags": 0,
+            "guid": "DC]Ig/@CZm",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Turkmenistan",
+                "[\"Afghanistan\", \"Iran\", \"Kazakhstan\", \"Uzbekistan\"]"
+            ],
+            "flags": 0,
+            "guid": "cyECF!M2?5",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Tuvalu",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "n}p(^#wXL!",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Uganda",
+                "[\"Democratic Republic of the Congo\", \"Kenya\", \"Rwanda\", \"South Sudan\", \"Tanzania\"]"
+            ],
+            "flags": 0,
+            "guid": "Q*(Lv%X};q",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Ukraine",
+                "[\"Belarus\", \"Hungary\", \"Moldova\", \"Poland\", \"Romania\", \"Russian Federation\", \"Slovakia\"]"
+            ],
+            "flags": 0,
+            "guid": "ck9m}&;,we",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "United Arab Emirates",
+                "[\"Oman\", \"Saudi Arabia\"]"
+            ],
+            "flags": 0,
+            "guid": "rTC/B_bz9B",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "United Kingdom of Great Britain and Northern Ireland",
+                "[\"Ireland\"]"
+            ],
+            "flags": 0,
+            "guid": "BLpD}8.)<{",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "United States of America",
+                "[\"Canada\", \"Mexico\"]"
+            ],
+            "flags": 0,
+            "guid": "u@@%R8a}X4",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Uruguay",
+                "[\"Argentina\", \"Brazil\"]"
+            ],
+            "flags": 0,
+            "guid": "c&`tPbr$[D",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Uzbekistan",
+                "[\"Afghanistan\", \"Kazakhstan\", \"Kyrgyzstan\", \"Tajikistan\", \"Turkmenistan\"]"
+            ],
+            "flags": 0,
+            "guid": "ku}23sfR.}",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Vanuatu",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "N^c^[76h!a",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Venezuela",
+                "[\"Brazil\", \"Colombia\", \"Guyana\"]"
+            ],
+            "flags": 0,
+            "guid": "GJjY#SrpHf",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Viet Nam",
+                "[\"Cambodia\", \"China\", \"Lao People's Democratic Republic\"]"
+            ],
+            "flags": 0,
+            "guid": "dt+ET!K|pM",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Wallis and Futuna",
+                "[\"No land borders\"]"
+            ],
+            "flags": 0,
+            "guid": "Mx+ih^#!N)",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Western Sahara",
+                "[\"Algeria\", \"Mauritania\", \"Morocco\"]"
+            ],
+            "flags": 0,
+            "guid": "oPuV5d-h0B",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Yemen",
+                "[\"Oman\", \"Saudi Arabia\"]"
+            ],
+            "flags": 0,
+            "guid": "vedZH9mvH$",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zambia",
+                "[\"Angola\", \"Botswana\", \"Democratic Republic of the Congo\", \"Malawi\", \"Mozambique\", \"Namibia\", \"Tanzania\", \"Zimbabwe\"]"
+            ],
+            "flags": 0,
+            "guid": "wJYRt`K~1h",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "Zimbabwe",
+                "[\"Botswana\", \"Mozambique\", \"South Africa\", \"Zambia\"]"
+            ],
+            "flags": 0,
+            "guid": "N2P_?3l=J1",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": []
+        }
+    ]
+}
