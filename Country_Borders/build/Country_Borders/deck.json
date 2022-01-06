@@ -57,7 +57,328 @@
     "dyn": 0,
     "extendNew": 0,
     "extendRev": 0,
-    "media_files": [],
+    "media_files": [
+        "ug-map-abkhazia.png",
+        "ug-map-adriatic_sea.png",
+        "ug-map-aegean_sea.png",
+        "ug-map-afghanistan.png",
+        "ug-map-africa-nobox.png",
+        "ug-map-akrotiri_and_dhekelia.png",
+        "ug-map-aland_islands.png",
+        "ug-map-alaska.png",
+        "ug-map-albania.png",
+        "ug-map-algeria.png",
+        "ug-map-american_samoa.png",
+        "ug-map-andorra.png",
+        "ug-map-angola.png",
+        "ug-map-anguilla.png",
+        "ug-map-antarctica-nobox.png",
+        "ug-map-antigua_and_barbuda.png",
+        "ug-map-arabian_sea.png",
+        "ug-map-aral_sea.png",
+        "ug-map-arctic_ocean-nobox.png",
+        "ug-map-argentina.png",
+        "ug-map-armenia.png",
+        "ug-map-aruba.png",
+        "ug-map-asia-nobox.png",
+        "ug-map-atlantic_ocean-nobox.png",
+        "ug-map-australia.png",
+        "ug-map-austria.png",
+        "ug-map-azerbaijan.png",
+        "ug-map-azores.png",
+        "ug-map-bahrain.png",
+        "ug-map-bali.png",
+        "ug-map-balkan_peninsula.png",
+        "ug-map-baltic_sea.png",
+        "ug-map-banda_sea.png",
+        "ug-map-bangladesh.png",
+        "ug-map-barbados.png",
+        "ug-map-barents_sea.png",
+        "ug-map-bay_of_bengal.png",
+        "ug-map-bay_of_biscay.png",
+        "ug-map-belarus.png",
+        "ug-map-belgium.png",
+        "ug-map-belize.png",
+        "ug-map-benin.png",
+        "ug-map-bering_strait.png",
+        "ug-map-bermuda.png",
+        "ug-map-bhutan.png",
+        "ug-map-black_sea.png",
+        "ug-map-bolivia.png",
+        "ug-map-bosnia_and_herzegovina.png",
+        "ug-map-botswana.png",
+        "ug-map-bougainville.png",
+        "ug-map-brazil.png",
+        "ug-map-british_virgin_islands.png",
+        "ug-map-brunei.png",
+        "ug-map-bulgaria.png",
+        "ug-map-burkina_faso.png",
+        "ug-map-burundi.png",
+        "ug-map-cambodia.png",
+        "ug-map-cameroon.png",
+        "ug-map-canada.png",
+        "ug-map-canary_islands.png",
+        "ug-map-cape_verde.png",
+        "ug-map-caribbean_sea.png",
+        "ug-map-caspian_sea.png",
+        "ug-map-cayman_islands.png",
+        "ug-map-celebes_sea.png",
+        "ug-map-celtic_sea.png",
+        "ug-map-central_african_republic.png",
+        "ug-map-chad.png",
+        "ug-map-chile.png",
+        "ug-map-china.png",
+        "ug-map-colombia.png",
+        "ug-map-comoros.png",
+        "ug-map-cook_islands.png",
+        "ug-map-coral_sea.png",
+        "ug-map-corsica.png",
+        "ug-map-costa_rica.png",
+        "ug-map-croatia.png",
+        "ug-map-cuba.png",
+        "ug-map-curacao.png",
+        "ug-map-cyprus.png",
+        "ug-map-czech_republic.png",
+        "ug-map-dead_sea.png",
+        "ug-map-democratic_republic_of_the_congo.png",
+        "ug-map-denmark.png",
+        "ug-map-denmark_strait.png",
+        "ug-map-djibouti.png",
+        "ug-map-dominica.png",
+        "ug-map-dominican_republic.png",
+        "ug-map-east_china_sea.png",
+        "ug-map-east_siberian_sea.png",
+        "ug-map-east_timor.png",
+        "ug-map-ecuador.png",
+        "ug-map-egypt.png",
+        "ug-map-el_salvador.png",
+        "ug-map-england.png",
+        "ug-map-english_channel.png",
+        "ug-map-equatorial_guinea.png",
+        "ug-map-eritrea.png",
+        "ug-map-estonia.png",
+        "ug-map-eswatini.png",
+        "ug-map-ethiopia.png",
+        "ug-map-europe-nobox.png",
+        "ug-map-european_union.png",
+        "ug-map-falkland_islands.png",
+        "ug-map-faroe_islands.png",
+        "ug-map-federated_states_of_micronesia.png",
+        "ug-map-fiji.png",
+        "ug-map-finland.png",
+        "ug-map-france.png",
+        "ug-map-french_guiana.png",
+        "ug-map-french_polynesia.png",
+        "ug-map-gabon.png",
+        "ug-map-georgia.png",
+        "ug-map-germany.png",
+        "ug-map-ghana.png",
+        "ug-map-gibraltar.png",
+        "ug-map-greece.png",
+        "ug-map-greenland.png",
+        "ug-map-grenada.png",
+        "ug-map-guadeloupe.png",
+        "ug-map-guam.png",
+        "ug-map-guatemala.png",
+        "ug-map-guernsey.png",
+        "ug-map-guinea-bissau.png",
+        "ug-map-guinea.png",
+        "ug-map-gulf_of_alaska.png",
+        "ug-map-gulf_of_california.png",
+        "ug-map-gulf_of_carpentaria.png",
+        "ug-map-gulf_of_guinea.png",
+        "ug-map-gulf_of_mexico.png",
+        "ug-map-gulf_of_thailand.png",
+        "ug-map-guyana.png",
+        "ug-map-haiti.png",
+        "ug-map-hawaii.png",
+        "ug-map-honduras.png",
+        "ug-map-hong_kong.png",
+        "ug-map-hudson_bay.png",
+        "ug-map-hungary.png",
+        "ug-map-iceland.png",
+        "ug-map-india.png",
+        "ug-map-indian_ocean-nobox.png",
+        "ug-map-indonesia.png",
+        "ug-map-iran.png",
+        "ug-map-iraq.png",
+        "ug-map-ireland.png",
+        "ug-map-isle_of_man.png",
+        "ug-map-israel.png",
+        "ug-map-italy.png",
+        "ug-map-ivory_coast.png",
+        "ug-map-jamaica.png",
+        "ug-map-japan.png",
+        "ug-map-java.png",
+        "ug-map-jeju.png",
+        "ug-map-jersey.png",
+        "ug-map-jordan.png",
+        "ug-map-kaliningrad_oblast.png",
+        "ug-map-kazakhstan.png",
+        "ug-map-kenya.png",
+        "ug-map-kiribati.png",
+        "ug-map-kosovo.png",
+        "ug-map-kuwait.png",
+        "ug-map-kyrgyzstan.png",
+        "ug-map-labrador_sea.png",
+        "ug-map-laos.png",
+        "ug-map-latvia.png",
+        "ug-map-lebanon.png",
+        "ug-map-lesotho.png",
+        "ug-map-liberia.png",
+        "ug-map-libya.png",
+        "ug-map-liechtenstein.png",
+        "ug-map-lithuania.png",
+        "ug-map-luxembourg.png",
+        "ug-map-macau.png",
+        "ug-map-madagascar.png",
+        "ug-map-madeira.png",
+        "ug-map-malawi.png",
+        "ug-map-malaysia.png",
+        "ug-map-maldives.png",
+        "ug-map-mali.png",
+        "ug-map-malta.png",
+        "ug-map-marshall_islands.png",
+        "ug-map-martinique.png",
+        "ug-map-mauritania.png",
+        "ug-map-mauritius.png",
+        "ug-map-mayotte.png",
+        "ug-map-mediterranean_sea.png",
+        "ug-map-melanesia.png",
+        "ug-map-mexico.png",
+        "ug-map-micronesia.png",
+        "ug-map-moldova.png",
+        "ug-map-monaco.png",
+        "ug-map-mongolia.png",
+        "ug-map-montenegro.png",
+        "ug-map-morocco.png",
+        "ug-map-mozambique.png",
+        "ug-map-myanmar.png",
+        "ug-map-namibia.png",
+        "ug-map-nauru.png",
+        "ug-map-nepal.png",
+        "ug-map-netherlands.png",
+        "ug-map-new_caledonia.png",
+        "ug-map-new_zealand.png",
+        "ug-map-nicaragua.png",
+        "ug-map-niger.png",
+        "ug-map-nigeria.png",
+        "ug-map-niue.png",
+        "ug-map-north_america-nobox.png",
+        "ug-map-north_korea.png",
+        "ug-map-north_macedonia.png",
+        "ug-map-north_sea.png",
+        "ug-map-northern_cyprus.png",
+        "ug-map-northern_ireland.png",
+        "ug-map-northern_mariana_islands.png",
+        "ug-map-norway.png",
+        "ug-map-norwegian_sea.png",
+        "ug-map-oceania-nobox.png",
+        "ug-map-oman.png",
+        "ug-map-pacific_ocean-nobox.png",
+        "ug-map-pakistan.png",
+        "ug-map-palau.png",
+        "ug-map-palestine.png",
+        "ug-map-panama.png",
+        "ug-map-papua_new_guinea.png",
+        "ug-map-paraguay.png",
+        "ug-map-persian_gulf.png",
+        "ug-map-peru.png",
+        "ug-map-philippine_sea.png",
+        "ug-map-philippines.png",
+        "ug-map-poland.png",
+        "ug-map-polynesia.png",
+        "ug-map-portugal.png",
+        "ug-map-puerto_rico.png",
+        "ug-map-qatar.png",
+        "ug-map-red_sea.png",
+        "ug-map-republic_of_artsakh.png",
+        "ug-map-republic_of_the_congo.png",
+        "ug-map-reunion.png",
+        "ug-map-romania.png",
+        "ug-map-russia.png",
+        "ug-map-rwanda.png",
+        "ug-map-sahrawi_arab_democratic_republic.png",
+        "ug-map-saint_kitts_and_nevis.png",
+        "ug-map-saint_lucia.png",
+        "ug-map-saint_martin.png",
+        "ug-map-saint_vincent_and_the_grenadines.png",
+        "ug-map-samoa.png",
+        "ug-map-san_marino.png",
+        "ug-map-sao_tome_and_principe.png",
+        "ug-map-sardinia.png",
+        "ug-map-saudi_arabia.png",
+        "ug-map-scandinavia.png",
+        "ug-map-scotland.png",
+        "ug-map-sea_of_galilee.png",
+        "ug-map-sea_of_japan.png",
+        "ug-map-sea_of_okhotsk.png",
+        "ug-map-senegal.png",
+        "ug-map-serbia.png",
+        "ug-map-seychelles.png",
+        "ug-map-sicily.png",
+        "ug-map-sierra_leone.png",
+        "ug-map-singapore.png",
+        "ug-map-sint_maarten.png",
+        "ug-map-slovakia.png",
+        "ug-map-slovenia.png",
+        "ug-map-solomon_islands.png",
+        "ug-map-somalia.png",
+        "ug-map-somaliland.png",
+        "ug-map-south_africa.png",
+        "ug-map-south_america-nobox.png",
+        "ug-map-south_china_sea.png",
+        "ug-map-south_korea.png",
+        "ug-map-south_ossetia.png",
+        "ug-map-south_sudan.png",
+        "ug-map-southern_ocean-nobox.png",
+        "ug-map-spain.png",
+        "ug-map-sri_lanka.png",
+        "ug-map-sudan.png",
+        "ug-map-sumatra.png",
+        "ug-map-suriname.png",
+        "ug-map-svalbard.png",
+        "ug-map-sweden.png",
+        "ug-map-switzerland.png",
+        "ug-map-syria.png",
+        "ug-map-taiwan.png",
+        "ug-map-tajikistan.png",
+        "ug-map-tanzania.png",
+        "ug-map-tasman_sea.png",
+        "ug-map-thailand.png",
+        "ug-map-the_bahamas.png",
+        "ug-map-the_gambia.png",
+        "ug-map-timor_sea.png",
+        "ug-map-togo.png",
+        "ug-map-tonga.png",
+        "ug-map-transnistria.png",
+        "ug-map-trinidad_and_tobago.png",
+        "ug-map-tunisia.png",
+        "ug-map-turkey.png",
+        "ug-map-turkmenistan.png",
+        "ug-map-turks_and_caicos_islands.png",
+        "ug-map-tuvalu.png",
+        "ug-map-uganda.png",
+        "ug-map-ukraine.png",
+        "ug-map-united_arab_emirates.png",
+        "ug-map-united_kingdom.png",
+        "ug-map-united_states_of_america.png",
+        "ug-map-united_states_virgin_islands.png",
+        "ug-map-uruguay.png",
+        "ug-map-uzbekistan.png",
+        "ug-map-vanuatu.png",
+        "ug-map-vatican_city.png",
+        "ug-map-venezuela.png",
+        "ug-map-vietnam.png",
+        "ug-map-wales.png",
+        "ug-map-wallis_and_futuna.png",
+        "ug-map-white_sea.png",
+        "ug-map-yellow_sea.png",
+        "ug-map-yemen.png",
+        "ug-map-zambia.png",
+        "ug-map-zanzibar.png",
+        "ug-map-zimbabwe.png"
+    ],
     "name": "Country Borders",
     "note_models": [
         {
@@ -123,2772 +444,2546 @@
             "data": "",
             "fields": [
                 "Afghanistan",
-                "[\"China\", \"Iran\", \"Pakistan\", \"Tajikistan\", \"Turkmenistan\", \"Uzbekistan\"]"
+                "Uzbekistan, China, Iran, Pakistan, Tajikistan, Turkmenistan"
             ],
             "flags": 0,
-            "guid": "FhcinaZ4d0",
+            "guid": "QFS]r^hAAV",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Albania",
-                "[\"Greece\", \"Montenegro\", \"North Macedonia\", \"Serbia\"]"
+                "Greece, Kosovo, Serbia, Montenegro, North Macedonia"
             ],
             "flags": 0,
-            "guid": "g+CWN6*cG2",
+            "guid": "uZN_1{rDV)",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Algeria",
-                "[\"Libya\", \"Mali\", \"Mauritania\", \"Morocco\", \"Niger\", \"Tunisia\", \"Western Sahara\"]"
+                "Mauritania, Morocco, Niger, Tunisia, Sahrawi Arab Democratic Republic, Libya, Mali"
             ],
             "flags": 0,
-            "guid": "LO}}=F2%n@",
+            "guid": "Ad>a3h*nQ[",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "American Samoa",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "G#a]l,GFF!",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Andorra",
-                "[\"France\", \"Spain\"]"
+                "France, Spain"
             ],
             "flags": 0,
-            "guid": "O{9:x`2dR?",
+            "guid": "mp|VfbxyRQ",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Angola",
-                "[\"Democratic Republic of the Congo\", \"Namibia\", \"Republic of the Congo\", \"Zambia\"]"
+                "Zambia, Democratic Republic of the Congo, Namibia, Republic of the Congo"
             ],
             "flags": 0,
-            "guid": "qv=mA{b&Y&",
+            "guid": "pBvKEDD{si",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Anguilla",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "F#O`kKn+,I",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Antarctica",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "lvy5:aV/<}",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Antigua and Barbuda",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "o`N.EKZ`>J",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Argentina",
-                "[\"Bolivia\", \"Brazil\", \"Chile\", \"Paraguay\", \"Uruguay\"]"
+                "Chile, Brazil, Paraguay, Uruguay, Bolivia"
             ],
             "flags": 0,
-            "guid": "h]pQH6Kj~-",
+            "guid": "fedHR8_ZW1",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Armenia",
-                "[\"Azerbaijan\", \"Georgia\", \"Iran\", \"Turkey\"]"
+                "Azerbaijan, Iran, Georgia, Turkey"
             ],
             "flags": 0,
-            "guid": "pg@NUk(R!Z",
+            "guid": "glx;7^tIW}",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Aruba",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "v^yHO%Qn_:",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Australia",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "nFN/70W04W",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Austria",
-                "[\"Czechia\", \"Germany\", \"Hungary\", \"Italy\", \"Liechtenstein\", \"Slovakia\", \"Slovenia\", \"Switzerland\"]"
+                "Slovenia, Germany, Hungary, Czech Republic, Italy, Liechtenstein, Slovakia, Switzerland"
             ],
             "flags": 0,
-            "guid": "sT5UaTCOAA",
+            "guid": "vRLg8o1=V{",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Azerbaijan",
-                "[\"Armenia\", \"Georgia\", \"Iran\", \"Russian Federation\", \"Turkey\"]"
+                "Russia, Georgia, Armenia, Turkey, Iran"
             ],
             "flags": 0,
-            "guid": "iB|vE6DWJj",
+            "guid": "feG&ez[T6q",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Bahamas",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "K_Gr~H[Ht@",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Bahrain",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "QOu;_d1X%`",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Bangladesh",
-                "[\"India\", \"Myanmar\"]"
+                "India, Myanmar"
             ],
             "flags": 0,
-            "guid": "w0lvPl3,O.",
+            "guid": "fEqcBd@@1^",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Barbados",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "QA$CpO:iA0",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Belarus",
-                "[\"Latvia\", \"Lithuania\", \"Poland\", \"Russian Federation\", \"Ukraine\"]"
+                "Latvia, Russia, Ukraine, Poland, Lithuania"
             ],
             "flags": 0,
-            "guid": "g#uHcESyod",
+            "guid": "N~u.-qtX(~",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Belgium",
-                "[\"France\", \"Germany\", \"Luxembourg\", \"Netherlands\"]"
+                "France, Luxembourg, Netherlands, Germany"
             ],
             "flags": 0,
-            "guid": "gk+*8z%-,9",
+            "guid": "qzzQ{a**Q(",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Belize",
-                "[\"Guatemala\", \"Mexico\"]"
+                "Guatemala, Mexico"
             ],
             "flags": 0,
-            "guid": "ovux`Q6LRx",
+            "guid": "Fwe|=s~4iH",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Benin",
-                "[\"Burkina Faso\", \"Niger\", \"Nigeria\", \"Togo\"]"
+                "Nigeria, Burkina Faso, Togo, Niger"
             ],
             "flags": 0,
-            "guid": "MD?3Lk>E$t",
+            "guid": "r~2OQ>BxTX",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Bermuda",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "g$,EPXlTL+",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Bhutan",
-                "[\"China\", \"India\"]"
+                "China, India"
             ],
             "flags": 0,
-            "guid": "Fi0Tjs?p8j",
+            "guid": "nxOMh}GJ;m",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Bolivia",
-                "[\"Argentina\", \"Brazil\", \"Chile\", \"Paraguay\", \"Peru\"]"
+                "Brazil, Peru, Paraguay, Chile, Argentina"
             ],
             "flags": 0,
-            "guid": "vd}1ozH}%o",
+            "guid": "rNulrQ/-_{",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Bonaire, Sint Eustatius and Saba",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "ll{kx<d*g+",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Bosnia and Herzegovina",
-                "[\"Croatia\", \"Montenegro\", \"Serbia\"]"
+                "Croatia, Serbia, Montenegro"
             ],
             "flags": 0,
-            "guid": "DkMGEu(XHZ",
+            "guid": "Nxj#u{sINh",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Botswana",
-                "[\"Namibia\", \"South Africa\", \"Zambia\", \"Zimbabwe\"]"
+                "Zimbabwe, Namibia, South Africa"
             ],
             "flags": 0,
-            "guid": "GE/](BC+4d",
+            "guid": "snp+x:P$58",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Brazil",
-                "[\"Argentina\", \"Bolivia\", \"Colombia\", \"French Guiana\", \"Guyana\", \"Paraguay\", \"Peru\", \"Suriname\", \"Uruguay\", \"Venezuela\"]"
+                "Venezuela, Argentina, Bolivia, Colombia, Guyana, Paraguay, Peru, Suriname, Uruguay, French Guiana"
             ],
             "flags": 0,
-            "guid": "kYbrCxyL=W",
+            "guid": "D0(U;{9!@p",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "British Indian Ocean Territory",
-                "[\"No land borders\"]"
+                "Brunei",
+                "Malaysia"
             ],
             "flags": 0,
-            "guid": "pmFx:P#YYv",
+            "guid": "G27N`VIfp.",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Brunei Darussalam",
-                "[\"Malaysia\"]"
-            ],
-            "flags": 0,
-            "guid": "b`KB6Pgq~u",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Bulgaria",
-                "[\"Greece\", \"North Macedonia\", \"Romania\", \"Serbia\", \"Turkey\"]"
+                "Serbia, Romania, Greece, Turkey, North Macedonia"
             ],
             "flags": 0,
-            "guid": "ux7r(,VC+/",
+            "guid": "wsfB15eSSq",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Burkina Faso",
-                "[\"Benin\", \"Cote d’Ivoire\", \"Ghana\", \"Mali\", \"Niger\", \"Togo\"]"
+                "Togo, Ghana, Benin, Ivory Coast, Mali, Niger"
             ],
             "flags": 0,
-            "guid": "c3-O;BLa^n",
+            "guid": "Lf,)l>R<|I",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Burundi",
-                "[\"Democratic Republic of the Congo\", \"Rwanda\", \"Tanzania\"]"
+                "Democratic Republic of the Congo, Tanzania, Rwanda"
             ],
             "flags": 0,
-            "guid": "Lu5BC0dk|o",
+            "guid": "F6jo|-6I~A",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Cabo Verde",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "Gf^b@gQTmF",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Cambodia",
-                "[\"Lao People's Democratic Republic\", \"Thailand\", \"Viet Nam\"]"
+                "Thailand, Laos, Vietnam"
             ],
             "flags": 0,
-            "guid": "BFrgvLd,]9",
+            "guid": "z0QOjl`#U>",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Cameroon",
-                "[\"Central African Republic\", \"Chad\", \"Equatorial Guinea\", \"Gabon\", \"Nigeria\", \"Republic of the Congo\"]"
+                "Chad, Gabon, Equatorial Guinea, Nigeria, Central African Republic, Republic of the Congo"
             ],
             "flags": 0,
-            "guid": "MPPdP6MR^u",
+            "guid": "PCFK(_k3Pt",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Canada",
-                "[\"United States of America\"]"
+                "United States of America"
             ],
             "flags": 0,
-            "guid": "H~cpvcPfRQ",
+            "guid": "BA:Bd*/43X",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Central African Republic",
-                "[\"Cameroon\", \"Chad\", \"Democratic Republic of the Congo\", \"Republic of the Congo\", \"South Sudan\", \"Sudan\"]"
+                "Republic of the Congo, Chad, Cameroon, Sudan, South Sudan, Democratic Republic of the Congo"
             ],
             "flags": 0,
-            "guid": "m${w?hr8!p",
+            "guid": "o[@ZqT0aXj",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Chad",
-                "[\"Cameroon\", \"Central African Republic\", \"Libya\", \"Niger\", \"Nigeria\", \"Sudan\"]"
+                "Niger, Nigeria, Sudan, Libya, Cameroon, Central African Republic"
             ],
             "flags": 0,
-            "guid": "RbAn7S#{V~",
+            "guid": "inQGdx,KY~",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Chile",
-                "[\"Argentina\", \"Bolivia\", \"Peru\"]"
+                "Argentina, Bolivia, Peru"
             ],
             "flags": 0,
-            "guid": "b4tYPS1e&u",
+            "guid": "kd!(Wui:,|",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "China",
-                "[\"Afghanistan\", \"Bhutan\", \"Hong Kong\", \"India\", \"Kazakhstan\", \"Kyrgyzstan\", \"Lao People's Democratic Republic\", \"Macao\", \"Mongolia\", \"Myanmar\", \"Nepal\", \"North Korea\", \"Pakistan\", \"Russian Federation\", \"Tajikistan\", \"Viet Nam\"]"
+                "Laos, Myanmar, Kyrgyzstan, Vietnam, Tajikistan, India, Bhutan, Afghanistan, Kazakhstan, Russia, Pakistan, Nepal, Mongolia, North Korea"
             ],
             "flags": 0,
-            "guid": "A|2LI56RtD",
+            "guid": "CtodXK)WAz",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Colombia",
-                "[\"Brazil\", \"Ecuador\", \"Panama\", \"Peru\", \"Venezuela\"]"
+                "Venezuela, Panama, Peru, Ecuador, Brazil"
             ],
             "flags": 0,
-            "guid": "Mc~UwYPrY*",
+            "guid": "F3tSc=7[+<",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Comoros",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "QVe-)1H96~",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Costa Rica",
-                "[\"Nicaragua\", \"Panama\"]"
+                "Nicaragua, Panama"
             ],
             "flags": 0,
-            "guid": "b`V$l>f^hQ",
+            "guid": "o>+(&C}<sm",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Cote d’Ivoire",
-                "[\"Burkina Faso\", \"Ghana\", \"Guinea\", \"Liberia\", \"Mali\"]"
-            ],
-            "flags": 0,
-            "guid": "k1*F$;a}R=",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Croatia",
-                "[\"Bosnia and Herzegovina\", \"Hungary\", \"Montenegro\", \"Serbia\", \"Slovenia\"]"
+                "Hungary, Bosnia and Herzegovina, Montenegro, Serbia, Slovenia"
             ],
             "flags": 0,
-            "guid": "t%6u,5{aIA",
+            "guid": "p_9@C-|o$+",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Cuba",
-                "[\"No land borders\"]"
+                "United States of America"
             ],
             "flags": 0,
-            "guid": "c|u34DkvdH",
+            "guid": "lP.$*Q2eJf",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Caribbean",
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Curacao",
-                "[\"No land borders\"]"
+                "Czech Republic",
+                "Slovakia, Poland, Germany, Austria"
             ],
             "flags": 0,
-            "guid": "t%}]f}~~Gz",
+            "guid": "k/K{sfg|WT",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Cyprus",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "M@mE1vaydg",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Czechia",
-                "[\"Austria\", \"Germany\", \"Poland\", \"Slovakia\"]"
-            ],
-            "flags": 0,
-            "guid": "iezOBOYTlO",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Democratic Republic of the Congo",
-                "[\"Angola\", \"Burundi\", \"Central African Republic\", \"Republic of the Congo\", \"Rwanda\", \"South Sudan\", \"Tanzania\", \"Uganda\", \"Zambia\"]"
+                "Tanzania, Angola, Burundi, Central African Republic, Republic of the Congo, Rwanda, Uganda, Zambia, South Sudan"
             ],
             "flags": 0,
-            "guid": "KRtkGe~F2n",
+            "guid": "B.>n.oV&yB",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Denmark",
-                "[\"Germany\"]"
+                "Germany"
             ],
             "flags": 0,
-            "guid": "G1NAA:^,-A",
+            "guid": "BQ/yZow~et",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Djibouti",
-                "[\"Eritrea\", \"Ethiopia\", \"Somalia\"]"
+                "Somalia, Ethiopia, Eritrea"
             ],
             "flags": 0,
-            "guid": "cifb17xaI$",
+            "guid": "ti-n79iKwV",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Dominica",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "l&Je>e,+e$",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Dominican Republic",
-                "[\"Haiti\"]"
+                "Haiti"
             ],
             "flags": 0,
-            "guid": "An.j`3bH*K",
+            "guid": "em-I^;%x|F",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Caribbean",
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
+        },
+        {
+            "__type__": "Note",
+            "data": "",
+            "fields": [
+                "East Timor",
+                "Indonesia"
+            ],
+            "flags": 0,
+            "guid": "qiF_3>nm,5",
+            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Ecuador",
-                "[\"Colombia\", \"Peru\"]"
+                "Colombia, Peru"
             ],
             "flags": 0,
-            "guid": "p+C+)P)%gG",
+            "guid": "E[r/r1XKOW",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Egypt",
-                "[\"Israel\", \"Libya\", \"Palestine, State of\", \"Sudan\"]"
+                "Sudan, Libya, Israel, Palestine"
             ],
             "flags": 0,
-            "guid": "j2/J6IK:FZ",
+            "guid": "C&c,@kIqLE",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Mediterranean",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "El Salvador",
-                "[\"Guatemala\", \"Honduras\"]"
+                "Honduras, Guatemala"
             ],
             "flags": 0,
-            "guid": "p:B[K(~r^P",
+            "guid": "@0&/pF3cz",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Equatorial Guinea",
-                "[\"Cameroon\", \"Gabon\"]"
+                "Cameroon, Gabon"
             ],
             "flags": 0,
-            "guid": "GZ4~*f_VVG",
+            "guid": "wGJ:^?Q[.}",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Eritrea",
-                "[\"Djibouti\", \"Ethiopia\", \"Sudan\"]"
+                "Ethiopia, Djibouti, Sudan"
             ],
             "flags": 0,
-            "guid": "DQ/csVZBM9",
+            "guid": "Bp.u+)rEY%",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Estonia",
-                "[\"Latvia\", \"Russian Federation\"]"
+                "Latvia, Russia"
             ],
             "flags": 0,
-            "guid": "e)]9#j;W!D",
+            "guid": "l;36=)BoF]",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Eswatini",
-                "[\"Mozambique\", \"South Africa\"]"
+                "Mozambique, South Africa"
             ],
             "flags": 0,
-            "guid": "qidBf9,r8P",
+            "guid": "q5{pwsz|*P",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Ethiopia",
-                "[\"Djibouti\", \"Eritrea\", \"Kenya\", \"Somalia\", \"South Sudan\", \"Sudan\"]"
+                "Sudan, Djibouti, Somalia, Eritrea, South Sudan, Kenya"
             ],
             "flags": 0,
-            "guid": "s}wCBU0x<.",
+            "guid": "ss}:^)<>J;",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Fiji",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "zd9TQ|WL]>",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Finland",
-                "[\"Norway\", \"Russian Federation\", \"Sweden\"]"
+                "Russia, Sweden, Norway"
             ],
             "flags": 0,
-            "guid": "rI,f{]ibyJ",
+            "guid": "r(/1uyiC*S",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "France",
-                "[\"Andorra\", \"Belgium\", \"Germany\", \"Italy\", \"Luxembourg\", \"Monaco\", \"Spain\", \"Switzerland\"]"
+                "Belgium, Germany, Monaco, Spain, Switzerland, Luxembourg, Italy, Andorra"
             ],
             "flags": 0,
-            "guid": "yPAUy9K(I~",
+            "guid": "QyTf!1Xy6e",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "French Guiana",
-                "[\"Brazil\", \"Suriname\"]"
+                "Suriname, Brazil"
             ],
             "flags": 0,
-            "guid": "gZu9JVin[_",
+            "guid": "PN52([z<IJ",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "French Polynesia",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "Pq>q;fu:O#",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "French Southern Territories",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "H&;jF|Iv*G",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Gabon",
-                "[\"Cameroon\", \"Equatorial Guinea\", \"Republic of the Congo\"]"
+                "Republic of the Congo, Equatorial Guinea, Cameroon"
             ],
             "flags": 0,
-            "guid": "sK@XdeP1j:",
+            "guid": "oG&)fo7&Ma",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Gambia",
-                "[\"Senegal\"]"
-            ],
-            "flags": 0,
-            "guid": "n]n(y<|=:)",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Georgia",
-                "[\"Armenia\", \"Azerbaijan\", \"Russian Federation\", \"Turkey\"]"
+                "Turkey, Azerbaijan, Russia, Armenia"
             ],
             "flags": 0,
-            "guid": "k|oa+j6tCv",
+            "guid": "d/`B%2IEB&",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Germany",
-                "[\"Austria\", \"Belgium\", \"Czechia\", \"Denmark\", \"France\", \"Luxembourg\", \"Netherlands\", \"Poland\", \"Switzerland\"]"
+                "Netherlands, Denmark, France, Poland, Switzerland, Czech Republic, Austria, Belgium, Luxembourg"
             ],
             "flags": 0,
-            "guid": "k3va@y8FP=",
+            "guid": "QLtf6asj3U",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Ghana",
-                "[\"Burkina Faso\", \"Cote d’Ivoire\", \"Togo\"]"
+                "Togo, Burkina Faso, Ivory Coast"
             ],
             "flags": 0,
-            "guid": "BYRi{X>u2L",
+            "guid": "wH6FIWqD9i",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Gibraltar",
-                "[\"Spain\"]"
+                "Spain"
             ],
             "flags": 0,
-            "guid": "inAMp)?-!",
+            "guid": "xtS(X9X/L-",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Mediterranean"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Greece",
-                "[\"Albania\", \"Bulgaria\", \"North Macedonia\", \"Turkey\"]"
+                "Turkey, Albania, Bulgaria, North Macedonia"
             ],
             "flags": 0,
-            "guid": "JPO6[&D_!C",
+            "guid": "crKp]ufB:;",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Greenland",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "g@X#T[rN6v",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Grenada",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "IYK9]OcaOh",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Guadeloupe",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "yR[l-UQ)+I",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Guam",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "GnNb?aI6C6",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Guatemala",
-                "[\"Belize\", \"El Salvador\", \"Honduras\", \"Mexico\"]"
+                "Belize, Honduras, Mexico, El Salvador"
             ],
             "flags": 0,
-            "guid": "AJqQl`vH16",
+            "guid": "AsQ3QU4/(U",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Guernsey",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "W`Ou0,^9G",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Guinea",
-                "[\"Cote d’Ivoire\", \"Guinea-Bissau\", \"Liberia\", \"Mali\", \"Senegal\", \"Sierra Leone\"]"
+                "Sierra Leone, Ivory Coast, Guinea-Bissau, Liberia, Mali, Senegal"
             ],
             "flags": 0,
-            "guid": "NWzAaiT&d|",
+            "guid": "s_D4?de]1!",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Guinea-Bissau",
-                "[\"Guinea\", \"Senegal\"]"
+                "Senegal, Guinea"
             ],
             "flags": 0,
-            "guid": "w0O]Ez*;[&",
+            "guid": "b93*mP?0tY",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Guyana",
-                "[\"Brazil\", \"Suriname\", \"Venezuela\"]"
+                "Suriname, Venezuela, Brazil"
             ],
             "flags": 0,
-            "guid": "wO}:/.~LXx",
+            "guid": "jXjm&,u[WN",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Haiti",
-                "[\"Dominican Republic\"]"
+                "Dominican Republic"
             ],
             "flags": 0,
-            "guid": "DzF(M0;M#I",
+            "guid": "u)>e+1?K1}",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Holy See",
-                "[\"Italy\"]"
-            ],
-            "flags": 0,
-            "guid": "HF</Iw.ngJ",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Caribbean",
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Honduras",
-                "[\"El Salvador\", \"Guatemala\", \"Nicaragua\"]"
+                "Guatemala, El Salvador, Nicaragua"
             ],
             "flags": 0,
-            "guid": "gu$7&US^(4",
+            "guid": "kIDiLU/:=g",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Hong Kong",
-                "[\"China\"]"
-            ],
-            "flags": 0,
-            "guid": "d*?.%N(9|d",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Hungary",
-                "[\"Austria\", \"Croatia\", \"Romania\", \"Serbia\", \"Slovakia\", \"Slovenia\", \"Ukraine\"]"
+                "Serbia, Slovakia, Slovenia, Croatia, Austria, Ukraine, Romania"
             ],
             "flags": 0,
-            "guid": "e{ntuBI[k=",
+            "guid": "G;QUB`<^HC",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Iceland",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "nqV%ODv;[f",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "India",
-                "[\"Bangladesh\", \"Bhutan\", \"China\", \"Myanmar\", \"Nepal\", \"Pakistan\"]"
+                "China, Bangladesh, Bhutan, Myanmar, Nepal, Pakistan"
             ],
             "flags": 0,
-            "guid": "jyR~64X>3%",
+            "guid": "n)qZK*R[{M",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Indonesia",
-                "[\"Malaysia\", \"Papua New Guinea\", \"Timor-Leste\"]"
+                "Papua New Guinea, East Timor, Malaysia"
             ],
             "flags": 0,
-            "guid": "P,hr5wZ3fV",
+            "guid": "y~^)s@M~?p",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Iran",
-                "[\"Afghanistan\", \"Armenia\", \"Azerbaijan\", \"Iraq\", \"Pakistan\", \"Turkey\", \"Turkmenistan\"]"
+                "Turkmenistan, Pakistan, Azerbaijan, Armenia, Turkey, Afghanistan, Iraq"
             ],
             "flags": 0,
-            "guid": "ks8%Gxj,k4",
+            "guid": "p(15V7@F0r",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Iraq",
-                "[\"Iran\", \"Jordan\", \"Kuwait\", \"Saudi Arabia\", \"Syrian Arab Republic\", \"Turkey\"]"
+                "Iran, Jordan, Kuwait, Saudi Arabia, Turkey, Syria"
             ],
             "flags": 0,
-            "guid": "Iei9H?-Q3~",
+            "guid": "ln.kw}L}tz",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Ireland",
-                "[\"United Kingdom of Great Britain and Northern Ireland\"]"
+                "United Kingdom"
             ],
             "flags": 0,
-            "guid": "jpl.5}ilj",
+            "guid": "qr`5nA-E^x",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Isle of Man",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "&rWcy4=3e",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Israel",
-                "[\"Egypt\", \"Jordan\", \"Lebanon\", \"Palestine, State of\", \"Syrian Arab Republic\"]"
+                "Jordan, Lebanon, Palestine, Syria, Egypt"
             ],
             "flags": 0,
-            "guid": "u5eCmyChgQ",
+            "guid": "raQ8|TLUiM",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Mediterranean",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Italy",
-                "[\"Austria\", \"France\", \"Holy See\", \"San Marino\", \"Slovenia\", \"Switzerland\"]"
+                "Austria, Vatican City, Switzerland, Slovenia, San Marino, France"
             ],
             "flags": 0,
-            "guid": "jJsv6p,J0.",
+            "guid": "dT93Kt|(K^",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Jamaica",
-                "[\"No land borders\"]"
+                "Ivory Coast",
+                "Ghana, Mali, Liberia, Burkina Faso, Guinea"
             ],
             "flags": 0,
-            "guid": "q:Mb7OYv`L",
+            "guid": "iOUh.2g,o",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Japan",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "F`1qlDMIxR",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Jersey",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "c)<Ie!i$)q",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Jordan",
-                "[\"Iraq\", \"Israel\", \"Palestine, State of\", \"Saudi Arabia\", \"Syrian Arab Republic\"]"
+                "Palestine, Iraq, Israel, Syria, Saudi Arabia"
             ],
             "flags": 0,
-            "guid": "e8.~:$n.F*",
+            "guid": "cy_F{!;17*",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Kazakhstan",
-                "[\"China\", \"Kyrgyzstan\", \"Russian Federation\", \"Turkmenistan\", \"Uzbekistan\"]"
+                "China, Uzbekistan, Turkmenistan, Kyrgyzstan, Russia"
             ],
             "flags": 0,
-            "guid": "OCm3XSacTq",
+            "guid": "IK$%y^KZUS",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Kenya",
-                "[\"Ethiopia\", \"Somalia\", \"South Sudan\", \"Tanzania\", \"Uganda\"]"
+                "Somalia, Uganda, Tanzania, Ethiopia, South Sudan"
             ],
             "flags": 0,
-            "guid": "MJDUX|3CYn",
+            "guid": "BQ4uY};8Sc",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Kiribati",
-                "[\"No land borders\"]"
+                "Kosovo",
+                "North Macedonia, Albania, Serbia, Montenegro"
             ],
             "flags": 0,
-            "guid": "p`+n0WaMD]",
+            "guid": "p+$[|aeRpt",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Kuwait",
-                "[\"Iraq\", \"Saudi Arabia\"]"
+                "Saudi Arabia, Iraq"
             ],
             "flags": 0,
-            "guid": "l6C=,=(1>i",
+            "guid": "H*1G*mt9VR",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Kyrgyzstan",
-                "[\"China\", \"Kazakhstan\", \"Tajikistan\", \"Uzbekistan\"]"
+                "Kazakhstan, China, Tajikistan, Uzbekistan"
             ],
             "flags": 0,
-            "guid": "kt1[`RaQLl",
+            "guid": "K=*(gW}&q#",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Lao People's Democratic Republic",
-                "[\"Cambodia\", \"China\", \"Myanmar\", \"Thailand\", \"Viet Nam\"]"
+                "Laos",
+                "Thailand, Cambodia, China, Myanmar, Vietnam"
             ],
             "flags": 0,
-            "guid": "JrG<B{MjQZ",
+            "guid": "vF@9Xg1fQ)",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Latvia",
-                "[\"Belarus\", \"Estonia\", \"Lithuania\", \"Russian Federation\"]"
+                "Lithuania, Russia, Belarus, Estonia"
             ],
             "flags": 0,
-            "guid": "PZb)&wG2w%",
+            "guid": "jn~6G]opL6",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Lebanon",
-                "[\"Israel\", \"Syrian Arab Republic\"]"
+                "Syria, Israel"
             ],
             "flags": 0,
-            "guid": "k.)_TIAHTL",
+            "guid": "uWvJ=H-3n@",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Mediterranean",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Lesotho",
-                "[\"South Africa\"]"
+                "South Africa"
             ],
             "flags": 0,
-            "guid": "E&7M?}=Fhj",
+            "guid": "M=gEz5/vRU",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Liberia",
-                "[\"Cote d’Ivoire\", \"Guinea\", \"Sierra Leone\"]"
+                "Ivory Coast, Sierra Leone, Guinea"
             ],
             "flags": 0,
-            "guid": "mVB%6c2B,,",
+            "guid": "w%uy{tJ7Bq",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Libya",
-                "[\"Algeria\", \"Chad\", \"Egypt\", \"Niger\", \"Sudan\", \"Tunisia\"]"
+                "Tunisia, Algeria, Chad, Niger, Sudan, Egypt"
             ],
             "flags": 0,
-            "guid": "e5(m>}?K.A",
+            "guid": "L6Sbz}_N|;",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Liechtenstein",
-                "[\"Austria\", \"Switzerland\"]"
+                "Switzerland, Austria"
             ],
             "flags": 0,
-            "guid": "bv!$v8Rl?U",
+            "guid": "bu/lhU(Ik^",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Lithuania",
-                "[\"Belarus\", \"Latvia\", \"Poland\", \"Russian Federation\"]"
+                "Latvia, Belarus, Russia, Poland"
             ],
             "flags": 0,
-            "guid": "z9i[I(4SP{",
+            "guid": "cS{iN9*%W~",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Luxembourg",
-                "[\"Belgium\", \"France\", \"Germany\"]"
+                "Belgium, France, Germany"
             ],
             "flags": 0,
-            "guid": "cy}B{%qKCo",
+            "guid": "mu_8E9E;TH",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Macao",
-                "[\"China\"]"
-            ],
-            "flags": 0,
-            "guid": "DXd-(x`1Hq",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Madagascar",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "ptOSiZX7^-",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Malawi",
-                "[\"Mozambique\", \"Tanzania\", \"Zambia\"]"
+                "Mozambique, Zambia, Tanzania"
             ],
             "flags": 0,
-            "guid": "D2`gJj6K*E",
+            "guid": "v$N)gI*@&{",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Malaysia",
-                "[\"Brunei Darussalam\", \"Indonesia\", \"Thailand\"]"
+                "Thailand, Brunei, Indonesia"
             ],
             "flags": 0,
-            "guid": "Jf=}GGTyNn",
+            "guid": "p`H)c9/bG3",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Maldives",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "d>np5YdQGs",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Mali",
-                "[\"Algeria\", \"Burkina Faso\", \"Cote d’Ivoire\", \"Guinea\", \"Mauritania\", \"Niger\", \"Senegal\"]"
+                "Guinea, Algeria, Burkina Faso, Ivory Coast, Mauritania, Niger, Senegal"
             ],
             "flags": 0,
-            "guid": "bP~4?*wTs?",
+            "guid": "wOjb<_k4c2",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Malta",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "f?VfR3[$wG",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Martinique",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "Fw@McB[U&t",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Mauritania",
-                "[\"Algeria\", \"Mali\", \"Senegal\", \"Western Sahara\"]"
+                "Senegal, Algeria, Mali, Sahrawi Arab Democratic Republic"
             ],
             "flags": 0,
-            "guid": "i_<X=5}val",
+            "guid": "w}&g{@#s>o",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Mauritius",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "j:Fy`}TLcA",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Mayotte",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "t2-z+?cP[)",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Mexico",
-                "[\"Belize\", \"Guatemala\", \"United States of America\"]"
+                "Belize, Guatemala, United States of America"
             ],
             "flags": 0,
-            "guid": "L6J/ZWB`n(",
+            "guid": "EFT!7}z9W`",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Micronesia",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "EJ5~k:e!;0",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Moldova",
-                "[\"Romania\", \"Ukraine\"]"
+                "Ukraine, Romania"
             ],
             "flags": 0,
-            "guid": "If;cgU3(g/",
+            "guid": "el-5yJ=#va",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Monaco",
-                "[\"France\"]"
+                "France"
             ],
             "flags": 0,
-            "guid": "y}aI.`+sp=",
+            "guid": "h(}*_h(E:V",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Mongolia",
-                "[\"China\", \"Russian Federation\"]"
+                "China, Russia"
             ],
             "flags": 0,
-            "guid": "OpGBi)WzB]",
+            "guid": "y5T;jJbw#C",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Montenegro",
-                "[\"Albania\", \"Bosnia and Herzegovina\", \"Croatia\", \"Serbia\"]"
+                "Bosnia and Herzegovina, Croatia, Serbia, Albania, Kosovo"
             ],
             "flags": 0,
-            "guid": "sB:n%e3@t[",
+            "guid": "lLmc0|?&WY",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Montserrat",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "F1Ipn^Ipcn",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Morocco",
-                "[\"Algeria\", \"Spain\", \"Western Sahara\"]"
+                "Algeria, Sahrawi Arab Democratic Republic, Spain"
             ],
             "flags": 0,
-            "guid": "dl&ozfJ_ax",
+            "guid": "Q5{|#Mk-Zq",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Mozambique",
-                "[\"Eswatini\", \"Malawi\", \"South Africa\", \"Tanzania\", \"Zambia\", \"Zimbabwe\"]"
+                "Malawi, Eswatini, Tanzania, Zambia, Zimbabwe, South Africa"
             ],
             "flags": 0,
-            "guid": "M=)xYexC6c",
+            "guid": "IQ:QU$(z1;",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Myanmar",
-                "[\"Bangladesh\", \"China\", \"India\", \"Lao People's Democratic Republic\", \"Thailand\"]"
+                "China, India, Laos, Thailand, Bangladesh"
             ],
             "flags": 0,
-            "guid": "heL9MaO.pk",
+            "guid": "o~BEqi2F9!",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Namibia",
-                "[\"Angola\", \"Botswana\", \"South Africa\", \"Zambia\"]"
+                "Angola, Zambia, South Africa, Botswana"
             ],
             "flags": 0,
-            "guid": "Qq%DNl8YL*",
+            "guid": "l3v=])Uu[O",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Nauru",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "ANsQ{2w!vp",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Nepal",
-                "[\"China\", \"India\"]"
+                "China, India"
             ],
             "flags": 0,
-            "guid": "gE/NK*e_j$",
+            "guid": "brhV:-8HaI",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Netherlands",
-                "[\"Belgium\", \"Germany\"]"
+                "Belgium, Germany"
             ],
             "flags": 0,
-            "guid": "j]jd%vdkR&",
+            "guid": "yQ<8=8,&r[",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "New Caledonia",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "lApel8<DJ[",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "New Zealand",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "v`!Q}s/m*.",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Nicaragua",
-                "[\"Costa Rica\", \"Honduras\"]"
+                "Honduras, Costa Rica"
             ],
             "flags": 0,
-            "guid": "O17J>}.(K;",
+            "guid": "i{qjW!Zwz-",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Niger",
-                "[\"Algeria\", \"Benin\", \"Burkina Faso\", \"Chad\", \"Libya\", \"Mali\", \"Nigeria\"]"
+                "Nigeria, Mali, Libya, Algeria, Benin, Burkina Faso, Chad"
             ],
             "flags": 0,
-            "guid": "l<=^SJ2K(j",
+            "guid": "IZgte{IXIX",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Nigeria",
-                "[\"Benin\", \"Cameroon\", \"Chad\", \"Niger\"]"
+                "Cameroon, Niger, Chad, Benin"
             ],
             "flags": 0,
-            "guid": "A}u1sYcWoZ",
+            "guid": "A}=#Gfvfi1",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Niue",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "j~]&wgFA2",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "North Korea",
-                "[\"China\", \"Russian Federation\", \"South Korea\"]"
+                "South Korea, Russia, China"
             ],
             "flags": 0,
-            "guid": "AL9JvglZhO",
+            "guid": "eMz[rcfKYZ",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "North Macedonia",
-                "[\"Albania\", \"Bulgaria\", \"Greece\", \"Serbia\"]"
+                "Serbia, Kosovo, Bulgaria, Albania, Greece"
             ],
             "flags": 0,
-            "guid": "e1*$HrFs>(",
+            "guid": "Qb.J[GVoU=",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Norway",
-                "[\"Finland\", \"Russian Federation\", \"Sweden\"]"
+                "Russia, Sweden, Finland"
             ],
             "flags": 0,
-            "guid": "njy%wTn+Uj",
+            "guid": "c)<zi=UgT!",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Oman",
-                "[\"Saudi Arabia\", \"United Arab Emirates\", \"Yemen\"]"
+                "United Arab Emirates, Yemen, Saudi Arabia"
             ],
             "flags": 0,
-            "guid": "vr(,2qk1K=",
+            "guid": "v~Op)@zYTw",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Pakistan",
-                "[\"Afghanistan\", \"China\", \"India\", \"Iran\"]"
+                "India, Afghanistan, China, Iran"
             ],
             "flags": 0,
-            "guid": "b2>2*I@rDw",
+            "guid": "ows:lf(-q/",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Palau",
-                "[\"No land borders\"]"
+                "Palestine",
+                "Israel, Egypt, Jordan"
             ],
             "flags": 0,
-            "guid": "hZf1Z)e//~",
+            "guid": "F~!g<DGpBN",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Palestine, State of",
-                "[\"Egypt\", \"Israel\", \"Jordan\"]"
-            ],
-            "flags": 0,
-            "guid": "lFT0I*3w]Z",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Mediterranean",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Panama",
-                "[\"Colombia\", \"Costa Rica\"]"
+                "Colombia, Costa Rica"
             ],
             "flags": 0,
-            "guid": "K-&$c5A>0)",
+            "guid": "fkJ7Hf-KfR",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Papua New Guinea",
-                "[\"Indonesia\"]"
+                "Indonesia"
             ],
             "flags": 0,
-            "guid": "F%nK.G#Mr:",
+            "guid": "foWlOu;ueo",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Oceania",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Paraguay",
-                "[\"Argentina\", \"Bolivia\", \"Brazil\"]"
+                "Brazil, Argentina, Bolivia"
             ],
             "flags": 0,
-            "guid": "t06M.L}P3M",
+            "guid": "hXhl9-X(O9",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Peru",
-                "[\"Bolivia\", \"Brazil\", \"Chile\", \"Colombia\", \"Ecuador\"]"
+                "Colombia, Chile, Brazil, Bolivia, Ecuador"
             ],
             "flags": 0,
-            "guid": "PLC$hfKV:W",
+            "guid": "s0%9>+>JMr",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Philippines",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "PQ^cXE|30W",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Pitcairn",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "wg~hK9+/^x",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Poland",
-                "[\"Belarus\", \"Czechia\", \"Germany\", \"Lithuania\", \"Russian Federation\", \"Slovakia\", \"Ukraine\"]"
+                "Lithuania, Belarus, Czech Republic, Slovakia, Ukraine, Russia, Germany"
             ],
             "flags": 0,
-            "guid": "6zRYR-Y2Q",
+            "guid": "Re&p5A3||@",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Portugal",
-                "[\"Spain\"]"
+                "Spain"
             ],
             "flags": 0,
-            "guid": "r00()XbbK^",
+            "guid": "j(t=m*`>Y;",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Puerto Rico",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "G!G&ekI8Ul",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Qatar",
-                "[\"Saudi Arabia\"]"
+                "Saudi Arabia"
             ],
             "flags": 0,
-            "guid": "f-3nl`Ox4K",
+            "guid": "v*PPZ@j|I9",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Republic of the Congo",
-                "[\"Angola\", \"Cameroon\", \"Central African Republic\", \"Democratic Republic of the Congo\", \"Gabon\"]"
+                "Central African Republic, Democratic Republic of the Congo, Gabon, Angola, Cameroon"
             ],
             "flags": 0,
-            "guid": "w0{?+w1z!4",
+            "guid": "BcWt(E^q|R",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Reunion",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "t&jm0S$Q.r",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Romania",
-                "[\"Bulgaria\", \"Hungary\", \"Moldova\", \"Serbia\", \"Ukraine\"]"
+                "Hungary, Moldova, Bulgaria, Ukraine, Serbia"
             ],
             "flags": 0,
-            "guid": "zMIz&3iQ-z",
+            "guid": "t}8;ErhS])",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Russian Federation",
-                "[\"Azerbaijan\", \"Belarus\", \"China\", \"Estonia\", \"Finland\", \"Georgia\", \"Kazakhstan\", \"Latvia\", \"Lithuania\", \"Mongolia\", \"North Korea\", \"Norway\", \"Poland\", \"Ukraine\"]"
+                "Russia",
+                "Poland, Georgia, Azerbaijan, Belarus, Estonia, Finland, Latvia, Lithuania, Norway, Ukraine, Kazakhstan, China, North Korea, Mongolia"
             ],
             "flags": 0,
-            "guid": "P_xGa;WBsP",
+            "guid": "el_W?[,h]B",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Rwanda",
-                "[\"Burundi\", \"Democratic Republic of the Congo\", \"Tanzania\", \"Uganda\"]"
+                "Tanzania, Burundi, Democratic Republic of the Congo, Uganda"
             ],
             "flags": 0,
-            "guid": "yr`ysSJ0Pr",
+            "guid": "n/l~TZmkpR",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Saint Barthelemy",
-                "[\"No land borders\"]"
+                "Sahrawi Arab Democratic Republic",
+                "Algeria, Morocco, Mauritania"
             ],
             "flags": 0,
-            "guid": "EbX.4mmZD?",
+            "guid": "bR*ncEe/Fu",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Saint Helena,\"Ascension and Tristan da Cunha",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "C)$^45X$:D",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Saint Kitts and Nevis",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "I`s7)-(Qk3",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Saint Lucia",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "fHY0,T9xXZ",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Saint Martin",
-                "[\"Sint Maarten\"]"
+                "Sint Maarten"
             ],
             "flags": 0,
-            "guid": "H89J)cw8et",
+            "guid": "P:Pr6j>a=w",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Saint Pierre and Miquelon",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "sc*fpW2m5e",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Saint Vincent and the Grenadines",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "xkA<uz=Ch6",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Samoa",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "bKvsu;@nA}",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Caribbean",
+                "UG::North_America"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "San Marino",
-                "[\"Italy\"]"
+                "Italy"
             ],
             "flags": 0,
-            "guid": "bvOJzO#v>d",
+            "guid": "pt2z[Ul:/n",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Sao Tome and Principe",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "L-&I^lTs^E",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Saudi Arabia",
-                "[\"Iraq\", \"Jordan\", \"Kuwait\", \"Oman\", \"Qatar\", \"United Arab Emirates\", \"Yemen\"]"
+                "Oman, United Arab Emirates, Yemen, Iraq, Jordan, Kuwait, Qatar"
             ],
             "flags": 0,
-            "guid": "Gjc$^%nDg#",
+            "guid": "mzM%B.nL<A",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Senegal",
-                "[\"Gambia\", \"Guinea\", \"Guinea-Bissau\", \"Mali\", \"Mauritania\"]"
+                "Mauritania, Guinea-Bissau, Mali, The Gambia, Guinea"
             ],
             "flags": 0,
-            "guid": "Oi-7%n$WTJ",
+            "guid": "n)[~Z}}S*F",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Serbia",
-                "[\"Albania\", \"Bosnia and Herzegovina\", \"Bulgaria\", \"Croatia\", \"Hungary\", \"Montenegro\", \"North Macedonia\", \"Romania\"]"
+                "Albania, Romania, Montenegro, North Macedonia, Kosovo, Croatia, Bulgaria, Bosnia and Herzegovina, Hungary"
             ],
             "flags": 0,
-            "guid": "CD(b/!rN>A",
+            "guid": "oqr|uA[UlY",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Seychelles",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "lIU+lLqm6:",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Sierra Leone",
-                "[\"Guinea\", \"Liberia\"]"
+                "Guinea, Liberia"
             ],
             "flags": 0,
-            "guid": "oVE8*;Yo*9",
+            "guid": "o4|fRD-axJ",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Singapore",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "mcA}gbD4x3",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Sint Maarten",
-                "[\"Saint Martin\"]"
+                "Saint Martin"
             ],
             "flags": 0,
-            "guid": "k3@tHw.MC*",
+            "guid": "AG<kjw/@J{",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Caribbean",
+                "UG::North_America"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Slovakia",
-                "[\"Austria\", \"Czechia\", \"Hungary\", \"Poland\", \"Ukraine\"]"
+                "Czech Republic, Poland, Hungary, Ukraine, Austria"
             ],
             "flags": 0,
-            "guid": "mvg8b&rgHU",
+            "guid": "lX8)0!.|5J",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Slovenia",
-                "[\"Austria\", \"Croatia\", \"Hungary\", \"Italy\"]"
+                "Austria, Hungary, Italy, Croatia"
             ],
             "flags": 0,
-            "guid": "uur>S4a~w`",
+            "guid": "Cy@ITwpS2O",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Somalia",
-                "[\"Djibouti\", \"Ethiopia\", \"Kenya\"]"
+                "Kenya, Ethiopia, Djibouti"
             ],
             "flags": 0,
-            "guid": "jrz,d[}8;=",
+            "guid": "ozGn~4*=;5",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "South Africa",
-                "[\"Botswana\", \"Eswatini\", \"Lesotho\", \"Mozambique\", \"Namibia\", \"Zimbabwe\"]"
+                "Eswatini, Namibia, Zimbabwe, Mozambique, Lesotho, Botswana"
             ],
             "flags": 0,
-            "guid": "vRSV.*v~0|",
+            "guid": "p`W=z@l][u",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "South Korea",
-                "[\"North Korea\"]"
+                "North Korea"
             ],
             "flags": 0,
-            "guid": "nQ1q<{rdfq",
+            "guid": "lMFTX{f(vv",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "South Sudan",
-                "[\"Central African Republic\", \"Democratic Republic of the Congo\", \"Ethiopia\", \"Kenya\", \"Sudan\", \"Uganda\"]"
+                "Uganda, Ethiopia, Democratic Republic of the Congo, Kenya, Central African Republic, Sudan"
             ],
             "flags": 0,
-            "guid": "DLaSu<8M*%",
+            "guid": "nq.lI%~pc?",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Spain",
-                "[\"Andorra\", \"France\", \"Gibraltar\", \"Morocco\", \"Portugal\"]"
+                "Andorra, Portugal, Morocco, Gibraltar, France"
             ],
             "flags": 0,
-            "guid": "Ah6i@Ev>gs",
+            "guid": "psHlU+Bgp`",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Sri Lanka",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "KNBO-C><Gr",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Sudan",
-                "[\"Central African Republic\", \"Chad\", \"Egypt\", \"Eritrea\", \"Ethiopia\", \"Libya\", \"South Sudan\"]"
+                "Egypt, Central African Republic, Chad, Eritrea, Ethiopia, Libya, South Sudan"
             ],
             "flags": 0,
-            "guid": "j;j[M/`Tu5",
+            "guid": "E6^*0FSyCo",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Suriname",
-                "[\"Brazil\", \"French Guiana\", \"Guyana\"]"
+                "Guyana, French Guiana, Brazil"
             ],
             "flags": 0,
-            "guid": "dfG3uY)Um5",
+            "guid": "Jj))kMZvX{",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Svalbard and Jan Mayen",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "w1ngNX2Mx5",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Sweden",
-                "[\"Finland\", \"Norway\"]"
+                "Norway, Finland"
             ],
             "flags": 0,
-            "guid": "A=Gk,|n|kN",
+            "guid": "n3oqCGJJ6f",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Switzerland",
-                "[\"Austria\", \"France\", \"Germany\", \"Italy\", \"Liechtenstein\"]"
+                "Liechtenstein, France, Germany, Austria, Italy"
             ],
             "flags": 0,
-            "guid": "r%+vHaEH=m",
+            "guid": "kJt/s#S@IF",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Syrian Arab Republic",
-                "[\"Iraq\", \"Israel\", \"Jordan\", \"Lebanon\", \"Turkey\"]"
+                "Syria",
+                "Jordan, Lebanon, Turkey, Israel, Iraq"
             ],
             "flags": 0,
-            "guid": "F*-&mfNwOX",
+            "guid": "xb;24ttdck",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Taiwan",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "bbE$-So=:8",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Mediterranean",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Tajikistan",
-                "[\"Afghanistan\", \"China\", \"Kyrgyzstan\", \"Uzbekistan\"]"
+                "China, Uzbekistan, Kyrgyzstan, Afghanistan"
             ],
             "flags": 0,
-            "guid": "t(P]?[i.jk",
+            "guid": "P;2)#qeEu$",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Tanzania",
-                "[\"Burundi\", \"Democratic Republic of the Congo\", \"Kenya\", \"Malawi\", \"Mozambique\", \"Rwanda\", \"Uganda\", \"Zambia\"]"
+                "Democratic Republic of the Congo, Zambia, Uganda, Rwanda, Mozambique, Malawi, Kenya, Burundi"
             ],
             "flags": 0,
-            "guid": "Fo-Zu]boFx",
+            "guid": "ci%>8u!5Mn",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Thailand",
-                "[\"Cambodia\", \"Lao People's Democratic Republic\", \"Malaysia\", \"Myanmar\"]"
+                "Malaysia, Myanmar, Laos, Cambodia"
             ],
             "flags": 0,
-            "guid": "KDlBC!F?6L",
+            "guid": "tXut{wb9_m",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Timor-Leste",
-                "[\"Indonesia\"]"
+                "The Gambia",
+                "Senegal"
             ],
             "flags": 0,
-            "guid": "GIdzvOD/]q",
+            "guid": "A&pu*)sm*n",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Togo",
-                "[\"Benin\", \"Burkina Faso\", \"Ghana\"]"
+                "Burkina Faso, Ghana, Benin"
             ],
             "flags": 0,
-            "guid": "yjd|&V9cz",
+            "guid": "J/$@ET`hir",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Tokelau",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "p$cpP}Iw0r",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Tonga",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "FIG2?p?FpF",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Trinidad and Tobago",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "jvW@%}0+Eh",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Sovereign_State",
+                "UG::West_Africa"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Tunisia",
-                "[\"Algeria\", \"Libya\"]"
+                "Algeria, Libya"
             ],
             "flags": 0,
-            "guid": "womX9@Yyl4",
+            "guid": "x3vu0cWK*&",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::Mediterranean",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Turkey",
-                "[\"Armenia\", \"Azerbaijan\", \"Bulgaria\", \"Georgia\", \"Greece\", \"Iran\", \"Iraq\", \"Syrian Arab Republic\"]"
+                "Azerbaijan, Greece, Syria, Georgia, Iraq, Iran, Armenia, Bulgaria"
             ],
             "flags": 0,
-            "guid": "DC]Ig/@CZm",
+            "guid": "FM&e]s0~g5",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Mediterranean",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Turkmenistan",
-                "[\"Afghanistan\", \"Iran\", \"Kazakhstan\", \"Uzbekistan\"]"
+                "Afghanistan, Uzbekistan, Iran, Kazakhstan"
             ],
             "flags": 0,
-            "guid": "cyECF!M2?5",
+            "guid": "QhW-:5nCo+",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Tuvalu",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "n}p(^#wXL!",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Uganda",
-                "[\"Democratic Republic of the Congo\", \"Kenya\", \"Rwanda\", \"South Sudan\", \"Tanzania\"]"
+                "Kenya, Tanzania, South Sudan, Rwanda, Democratic Republic of the Congo"
             ],
             "flags": 0,
-            "guid": "Q*(Lv%X};q",
+            "guid": "w0]6.AshO>",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Ukraine",
-                "[\"Belarus\", \"Hungary\", \"Moldova\", \"Poland\", \"Romania\", \"Russian Federation\", \"Slovakia\"]"
+                "Hungary, Romania, Russia, Slovakia, Belarus, Moldova, Poland"
             ],
             "flags": 0,
-            "guid": "ck9m}&;,we",
+            "guid": "KAR!h8TQUP",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "United Arab Emirates",
-                "[\"Oman\", \"Saudi Arabia\"]"
+                "Saudi Arabia, Oman"
             ],
             "flags": 0,
-            "guid": "rTC/B_bz9B",
+            "guid": "gwTPCi:r!]",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "United Kingdom of Great Britain and Northern Ireland",
-                "[\"Ireland\"]"
+                "United Kingdom",
+                "Ireland"
             ],
             "flags": 0,
-            "guid": "BLpD}8.)<{",
+            "guid": "HR#vBv/6R}",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::European_Union",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "United States of America",
-                "[\"Canada\", \"Mexico\"]"
+                "Mexico, Canada, Cuba"
             ],
             "flags": 0,
-            "guid": "u@@%R8a}X4",
+            "guid": "hCR3-ou?11",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::North_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Uruguay",
-                "[\"Argentina\", \"Brazil\"]"
+                "Brazil, Argentina"
             ],
             "flags": 0,
-            "guid": "c&`tPbr$[D",
+            "guid": "B^U@R}75ke",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Uzbekistan",
-                "[\"Afghanistan\", \"Kazakhstan\", \"Kyrgyzstan\", \"Tajikistan\", \"Turkmenistan\"]"
+                "Tajikistan, Kazakhstan, Kyrgyzstan, Turkmenistan, Afghanistan"
             ],
             "flags": 0,
-            "guid": "ku}23sfR.}",
+            "guid": "N=aJipA!}R",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Vanuatu",
-                "[\"No land borders\"]"
+                "Vatican City",
+                "Italy"
             ],
             "flags": 0,
-            "guid": "N^c^[76h!a",
+            "guid": "C|~~`5&#cz",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Europe",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Venezuela",
-                "[\"Brazil\", \"Colombia\", \"Guyana\"]"
+                "Guyana, Brazil, Colombia"
             ],
             "flags": 0,
-            "guid": "GJjY#SrpHf",
+            "guid": "Nu`/OsPrb?",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::South_America",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
-                "Viet Nam",
-                "[\"Cambodia\", \"China\", \"Lao People's Democratic Republic\"]"
+                "Vietnam",
+                "Cambodia, Laos, China"
             ],
             "flags": 0,
-            "guid": "dt+ET!K|pM",
+            "guid": "g..l@E:[P2",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Wallis and Futuna",
-                "[\"No land borders\"]"
-            ],
-            "flags": 0,
-            "guid": "Mx+ih^#!N)",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
-        },
-        {
-            "__type__": "Note",
-            "data": "",
-            "fields": [
-                "Western Sahara",
-                "[\"Algeria\", \"Mauritania\", \"Morocco\"]"
-            ],
-            "flags": 0,
-            "guid": "oPuV5d-h0B",
-            "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Southeast_Asia",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Yemen",
-                "[\"Oman\", \"Saudi Arabia\"]"
+                "Oman, Saudi Arabia"
             ],
             "flags": 0,
-            "guid": "vedZH9mvH$",
+            "guid": "bT9W,}rdf=",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Asia",
+                "UG::Middle_East",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Zambia",
-                "[\"Angola\", \"Botswana\", \"Democratic Republic of the Congo\", \"Malawi\", \"Mozambique\", \"Namibia\", \"Tanzania\", \"Zimbabwe\"]"
+                "Malawi, Angola, Zimbabwe, Namibia, Tanzania, Mozambique, Democratic Republic of the Congo"
             ],
             "flags": 0,
-            "guid": "wJYRt`K~1h",
+            "guid": "t=v_}A0y99",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         },
         {
             "__type__": "Note",
             "data": "",
             "fields": [
                 "Zimbabwe",
-                "[\"Botswana\", \"Mozambique\", \"South Africa\", \"Zambia\"]"
+                "South Africa, Botswana, Zambia, Mozambique"
             ],
             "flags": 0,
-            "guid": "N2P_?3l=J1",
+            "guid": "q{4B0c;D=H",
             "note_model_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "tags": []
+            "tags": [
+                "UG::Africa",
+                "UG::East_Africa",
+                "UG::Sovereign_State"
+            ]
         }
     ]
 }
