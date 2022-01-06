@@ -384,7 +384,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}\n\nul {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\n\niframe {\n  height: 100vh; \n  width:100%;\n} \n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n",
+            "css": ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Apply shadow to images, notably to bring out white areas on flags.\n * Ignore images with non-rectagular outlines (e.g. flag of Nepal).\n */\n.value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);\n}\n\n/**\n * Some flags (e.g. Guam's) contain identifying words that can give away the answer.\n * If a blurred version is available, show it on the front but not on the back.\n */\n.value--front > img[src*=\"-blur\"] + img {\n  display: none;\n}\n\n.value--back > img[src*=\"-blur\"] {\n  display: none;\n}\n\n/**\n * Placeholder SVG to hint at the type of answer that is expected.\n * Used on \"Country - Flag\" and \"Country - Map\" templates.\n */\n.placeholder {\n  color: #333;\n}\n\n.placeholder > path {\n  fill: none;\n  stroke: currentColor;\n  stroke-width: 1;\n}\n\n.night_mode .info,\n.night_mode .type,\n.night_mode .placeholder,\n.nightMode .info,\n.nightMode .type,\n.nightMode .placeholder {\n  color: #ccc;\n}\n\n/**\n * Apply shadow to images, to bring out black areas on flags, in night\n   mode.\n */\n.nightMode .value > img:not([src*=\"-nobox\"]),\n.night_mode .value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);\n}\n\nhr {\n  margin: 1.5em 0;\n}\n\n\niframe {\n  height: 100vh; \n  width:100%;\n} ",
             "flds": [
                 {
                     "font": "Arial",
@@ -422,7 +422,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<ul id=\"myList\"></ul>\n\t<script>\n\t\tlet data = {{Country Borders}};\n  \t\tlet list = document.getElementById(\"myList\");\n\n  \t\tdata.forEach((item) => {\n  \t\t\tlet li = document.createElement(\"li\");\n  \t\t\tli.innerText = item;\n  \t\t\tlist.appendChild(li);\n\t\t\t});\n    </script>\n\n<div class=\"value value--image\" id=\"map-image\">\n</div>\n\n\t<script>\n\t\tlet country = \"{{Country Name}}\".split(' ').join('_');\n\t\tcountry = country.toLowerCase();\n\t\tcountry = \"https://github.com/anki-geo/ultimate-geography/blob/master/src/media/maps/ug-map-\"+country+\".png?raw=true\";\n\n\t\tlet mapImage = document.getElementById(\"map-image\");\n\t\tlet imageLink = document.createElement(\"img\");\n\n\t\timageLink.src = country;\n\n\t\tmapImage.appendChild(imageLink);\n\t\t\n    </script>\n\n<iframe src=\"https://en.m.wikipedia.org/wiki/{{Country Name}}\" seamless=\"seamless\"></iframe>",
+                    "afmt": "<div class=\"value value--top\">{{Country Name}}</div>\n\n<hr id=answer>\n\n<div class=\"type\">Country Borders</div>\n<div class=\"value\">{{Country Borders}}</div>\n\n<iframe src=\"https://en.m.wikipedia.org/wiki/{{Country Name}}\" seamless=\"seamless\"></iframe>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -430,7 +430,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{Country Name}}",
+                    "qfmt": "{{#Country Borders}}\n  <div class=\"value value--top\">{{Country Name}}</div>\n\n  <hr>\n\n  <div class=\"type\">Country Borders</div>\n  <div class=\"value\">?</div>\n{{/Country Borders}}",
                     "scratchPad": 0
                 }
             ],
