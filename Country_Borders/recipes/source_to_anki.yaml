@@ -6,7 +6,7 @@
 - build_parts:
   - note_models_from_yaml_part:
       part_id: Country Borders
-      file: src/note_models/Country Borders/Country Borders.yaml
+      file: src/note_models/Country Borders.yaml
   - headers_from_yaml_part:
       part_id: deck_headers
       file: src/headers/header1.yaml
