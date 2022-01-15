@@ -1,20 +1,38 @@
 {{#Country Borders}}
   <div class="value value--top">{{Country Name}}</div>
-
+  {{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
+  
   <hr>
 
   <div class="type">Country Borders</div>
   <div class="value">?</div>
-{{/Country Borders}}
+  <div class="value value--image">
+    <svg
+      class="placeholder"
+      xmlns="http://www.w3.org/2000/svg"
+      width="500"
+      height="308"
+      viewBox="0 0 500 308"
+    >
+      <path d="m154 2s-151 44-152 152c-1 108 152 152 152 152h193s151-44 151-152c1-107-151-152-151-152z" />
+    </svg>
+  </div>
 
+{{/Country Borders}}
 
 --
 
 <div class="value value--top">{{Country Name}}</div>
+{{#Country info}}<div class="info">{{Country info}}</div>{{/Country info}}
 
 <hr id=answer>
 
 <div class="type">Country Borders</div>
 <div class="value">{{Country Borders}}</div>
+
+{{#Country border info}}<div class="info">{{Country border info}}</div>{{/Country border info}}
+
+<div class="type">Location</div>
+<div class="value value--image">{{Map}}</div>
 
 <iframe src="https://en.m.wikipedia.org/wiki/{{Country Name}}" seamless="seamless"></iframe>
