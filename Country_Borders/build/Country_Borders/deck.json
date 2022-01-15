@@ -384,7 +384,7 @@
         {
             "__type__": "NoteModel",
             "crowdanki_uuid": "142ac5ca-6d12-11ec-bfb1-34f39abc1078",
-            "css": ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Apply shadow to images, notably to bring out white areas on flags.\n * Ignore images with non-rectagular outlines (e.g. flag of Nepal).\n */\n.value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);\n}\n\n/**\n * Some flags (e.g. Guam's) contain identifying words that can give away the answer.\n * If a blurred version is available, show it on the front but not on the back.\n */\n.value--front > img[src*=\"-blur\"] + img {\n  display: none;\n}\n\n.value--back > img[src*=\"-blur\"] {\n  display: none;\n}\n\n/**\n * Placeholder SVG to hint at the type of answer that is expected.\n * Used on \"Country - Flag\" and \"Country - Map\" templates.\n */\n.placeholder {\n  color: #333;\n}\n\n.placeholder > path {\n  fill: none;\n  stroke: currentColor;\n  stroke-width: 1;\n}\n\n.night_mode .info,\n.night_mode .type,\n.night_mode .placeholder,\n.nightMode .info,\n.nightMode .type,\n.nightMode .placeholder {\n  color: #ccc;\n}\n\n/**\n * Apply shadow to images, to bring out black areas on flags, in night\n   mode.\n */\n.nightMode .value > img:not([src*=\"-nobox\"]),\n.night_mode .value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);\n}\n\nhr {\n  margin: 1.5em 0;\n}\n\n\niframe {\n  height: 100vh; \n  width:100%;\n} ",
+            "css": ".card {\n  padding: 1em 0;\n  background-color: white;\n  color: black;\n  font-family: Verdana;\n  font-size: 16px;\n  text-align: center;\n}\n\n.type {\n  margin-bottom: 0.25em;\n  color: #333;\n  font-size: 70%;\n  font-weight: bold;\n  text-transform: uppercase;\n}\n\n.info {\n  max-width: 30em;\n  margin: 0.75em auto;\n  color: #333;\n  font-size: 90%;\n  font-style: italic;\n}\n\n.value {\n  font-size: 150%;\n  margin-bottom: 0.5em;\n}\n\n.value--top {\n  margin-top: 1em;\n}\n\n.value--image {\n  margin-top: 0.75em;\n}\n\n.value > img,\n.value > .placeholder {\n  max-width: 100%;\n  height: auto;\n}\n\n/**\n * Apply shadow to images, notably to bring out white areas on flags.\n * Ignore images with non-rectagular outlines (e.g. flag of Nepal).\n */\n.value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 1px 4px 1px rgba(0, 0, 0, 0.2);\n}\n\n/**\n * Some flags (e.g. Guam's) contain identifying words that can give away the answer.\n * If a blurred version is available, show it on the front but not on the back.\n */\n.value--front > img[src*=\"-blur\"] + img {\n  display: none;\n}\n\n.value--back > img[src*=\"-blur\"] {\n  display: none;\n}\n\n/**\n * Placeholder SVG to hint at the type of answer that is expected.\n * Used on \"Country - Flag\" and \"Country - Map\" templates.\n */\n.placeholder {\n  color: #333;\n}\n\n.placeholder > path {\n  fill: none;\n  stroke: currentColor;\n  stroke-width: 1;\n}\n\n.night_mode .info,\n.night_mode .type,\n.night_mode .placeholder,\n.nightMode .info,\n.nightMode .type,\n.nightMode .placeholder {\n  color: #ccc;\n}\n\n/**\n * Apply shadow to images, to bring out black areas on flags, in night\n   mode.\n */\n.nightMode .value > img:not([src*=\"-nobox\"]),\n.night_mode .value > img:not([src*=\"-nobox\"]) {\n  box-shadow: 0 0 4px 1px rgba(54, 54, 54, 0.9);\n}\n\nhr {\n  margin: 1.5em 0;\n}\n\n\niframe {\n  height: 100vh; \n  width:100%;\n} ",
             "flds": [
                 {
                     "font": "Arial",
@@ -400,6 +400,33 @@
                     "media": [],
                     "name": "Country Borders",
                     "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Map",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Country info",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Country border info",
+                    "ord": 4,
                     "rtl": false,
                     "size": 20,
                     "sticky": false
@@ -422,7 +449,7 @@
             "tags": [],
             "tmpls": [
                 {
-                    "afmt": "<div class=\"value value--top\">{{Country Name}}</div>\n\n<hr id=answer>\n\n<div class=\"type\">Country Borders</div>\n<div class=\"value\">{{Country Borders}}</div>\n\n<iframe src=\"https://en.m.wikipedia.org/wiki/{{Country Name}}\" seamless=\"seamless\"></iframe>",
+                    "afmt": "<div class=\"value value--top\">{{Country Name}}</div>\n{{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n\n<hr id=answer>\n\n<div class=\"type\">Country Borders</div>\n<div class=\"value\">{{Country Borders}}</div>\n\n{{#Country border info}}<div class=\"info\">{{Country border info}}</div>{{/Country border info}}\n\n<div class=\"type\">Location</div>\n<div class=\"value value--image\">{{Map}}</div>\n\n<iframe src=\"https://en.m.wikipedia.org/wiki/{{Country Name}}\" seamless=\"seamless\"></iframe>",
                     "bafmt": "",
                     "bfont": "",
                     "bqfmt": "",
@@ -430,7 +457,7 @@
                     "did": null,
                     "name": "Card 1",
                     "ord": 0,
-                    "qfmt": "{{#Country Borders}}\n  <div class=\"value value--top\">{{Country Name}}</div>\n\n  <hr>\n\n  <div class=\"type\">Country Borders</div>\n  <div class=\"value\">?</div>\n{{/Country Borders}}",
+                    "qfmt": "{{#Country Borders}}\n  <div class=\"value value--top\">{{Country Name}}</div>\n  {{#Country info}}<div class=\"info\">{{Country info}}</div>{{/Country info}}\n  \n  <hr>\n\n  <div class=\"type\">Country Borders</div>\n  <div class=\"value\">?</div>\n  <div class=\"value value--image\">\n    <svg\n      class=\"placeholder\"\n      xmlns=\"http://www.w3.org/2000/svg\"\n      width=\"500\"\n      height=\"308\"\n      viewBox=\"0 0 500 308\"\n    >\n      <path d=\"m154 2s-151 44-152 152c-1 108 152 152 152 152h193s151-44 151-152c1-107-151-152-151-152z\" />\n    </svg>\n  </div>\n\n{{/Country Borders}}",
                     "scratchPad": 0
                 }
             ],
@@ -444,7 +471,10 @@
             "data": "",
             "fields": [
                 "Afghanistan",
-                "Uzbekistan, China, Iran, Pakistan, Tajikistan, Turkmenistan"
+                "Uzbekistan, China, Iran, Pakistan, Tajikistan, Turkmenistan",
+                "<img src=\"ug-map-afghanistan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "QFS]r^hAAV",
@@ -459,7 +489,10 @@
             "data": "",
             "fields": [
                 "Albania",
-                "Greece, Kosovo, Serbia, Montenegro, North Macedonia"
+                "Greece, Kosovo, Serbia, Montenegro, North Macedonia",
+                "<img src=\"ug-map-albania.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "uZN_1{rDV)",
@@ -475,7 +508,10 @@
             "data": "",
             "fields": [
                 "Algeria",
-                "Mauritania, Morocco, Niger, Tunisia, Sahrawi Arab Democratic Republic, Libya, Mali"
+                "Mauritania, Morocco, Niger, Tunisia, Sahrawi Arab Democratic Republic, Libya, Mali",
+                "<img src=\"ug-map-algeria.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Ad>a3h*nQ[",
@@ -491,7 +527,10 @@
             "data": "",
             "fields": [
                 "Andorra",
-                "France, Spain"
+                "France, Spain",
+                "<img src=\"ug-map-andorra.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "mp|VfbxyRQ",
@@ -506,7 +545,10 @@
             "data": "",
             "fields": [
                 "Angola",
-                "Zambia, Democratic Republic of the Congo, Namibia, Republic of the Congo"
+                "Zambia, Democratic Republic of the Congo, Namibia, Republic of the Congo",
+                "<img src=\"ug-map-angola.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "pBvKEDD{si",
@@ -521,7 +563,10 @@
             "data": "",
             "fields": [
                 "Argentina",
-                "Chile, Brazil, Paraguay, Uruguay, Bolivia"
+                "Chile, Brazil, Paraguay, Uruguay, Bolivia",
+                "<img src=\"ug-map-argentina.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "fedHR8_ZW1",
@@ -536,7 +581,10 @@
             "data": "",
             "fields": [
                 "Armenia",
-                "Azerbaijan, Iran, Georgia, Turkey"
+                "Azerbaijan, Iran, Georgia, Turkey",
+                "<img src=\"ug-map-armenia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "glx;7^tIW}",
@@ -551,7 +599,10 @@
             "data": "",
             "fields": [
                 "Austria",
-                "Slovenia, Germany, Hungary, Czech Republic, Italy, Liechtenstein, Slovakia, Switzerland"
+                "Slovenia, Germany, Hungary, Czech Republic, Italy, Liechtenstein, Slovakia, Switzerland",
+                "<img src=\"ug-map-austria.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "vRLg8o1=V{",
@@ -567,7 +618,10 @@
             "data": "",
             "fields": [
                 "Azerbaijan",
-                "Russia, Georgia, Armenia, Turkey, Iran"
+                "Russia, Georgia, Armenia, Turkey, Iran",
+                "<img src=\"ug-map-azerbaijan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "feG&ez[T6q",
@@ -582,7 +636,10 @@
             "data": "",
             "fields": [
                 "Bangladesh",
-                "India, Myanmar"
+                "India, Myanmar",
+                "<img src=\"ug-map-bangladesh.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "fEqcBd@@1^",
@@ -597,7 +654,10 @@
             "data": "",
             "fields": [
                 "Belarus",
-                "Latvia, Russia, Ukraine, Poland, Lithuania"
+                "Latvia, Russia, Ukraine, Poland, Lithuania",
+                "<img src=\"ug-map-belarus.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "N~u.-qtX(~",
@@ -612,7 +672,10 @@
             "data": "",
             "fields": [
                 "Belgium",
-                "France, Luxembourg, Netherlands, Germany"
+                "France, Luxembourg, Netherlands, Germany",
+                "<img src=\"ug-map-belgium.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "qzzQ{a**Q(",
@@ -628,7 +691,10 @@
             "data": "",
             "fields": [
                 "Belize",
-                "Guatemala, Mexico"
+                "Guatemala, Mexico",
+                "<img src=\"ug-map-belize.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Fwe|=s~4iH",
@@ -643,7 +709,10 @@
             "data": "",
             "fields": [
                 "Benin",
-                "Nigeria, Burkina Faso, Togo, Niger"
+                "Nigeria, Burkina Faso, Togo, Niger",
+                "<img src=\"ug-map-benin.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "r~2OQ>BxTX",
@@ -659,7 +728,10 @@
             "data": "",
             "fields": [
                 "Bhutan",
-                "China, India"
+                "China, India",
+                "<img src=\"ug-map-bhutan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "nxOMh}GJ;m",
@@ -674,7 +746,10 @@
             "data": "",
             "fields": [
                 "Bolivia",
-                "Brazil, Peru, Paraguay, Chile, Argentina"
+                "Brazil, Peru, Paraguay, Chile, Argentina",
+                "<img src=\"ug-map-bolivia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "rNulrQ/-_{",
@@ -689,7 +764,10 @@
             "data": "",
             "fields": [
                 "Bosnia and Herzegovina",
-                "Croatia, Serbia, Montenegro"
+                "Croatia, Serbia, Montenegro",
+                "<img src=\"ug-map-bosnia_and_herzegovina.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Nxj#u{sINh",
@@ -705,7 +783,10 @@
             "data": "",
             "fields": [
                 "Botswana",
-                "Zimbabwe, Namibia, South Africa"
+                "Zimbabwe, Namibia, South Africa",
+                "<img src=\"ug-map-botswana.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "snp+x:P$58",
@@ -720,7 +801,10 @@
             "data": "",
             "fields": [
                 "Brazil",
-                "Venezuela, Argentina, Bolivia, Colombia, Guyana, Paraguay, Peru, Suriname, Uruguay, French Guiana"
+                "Venezuela, Argentina, Bolivia, Colombia, Guyana, Paraguay, Peru, Suriname, Uruguay, French Guiana",
+                "<img src=\"ug-map-brazil.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "D0(U;{9!@p",
@@ -735,7 +819,10 @@
             "data": "",
             "fields": [
                 "Brunei",
-                "Malaysia"
+                "Malaysia",
+                "<img src=\"ug-map-brunei.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "G27N`VIfp.",
@@ -751,7 +838,10 @@
             "data": "",
             "fields": [
                 "Bulgaria",
-                "Serbia, Romania, Greece, Turkey, North Macedonia"
+                "Serbia, Romania, Greece, Turkey, North Macedonia",
+                "<img src=\"ug-map-bulgaria.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "wsfB15eSSq",
@@ -767,7 +857,10 @@
             "data": "",
             "fields": [
                 "Burkina Faso",
-                "Togo, Ghana, Benin, Ivory Coast, Mali, Niger"
+                "Togo, Ghana, Benin, Ivory Coast, Mali, Niger",
+                "<img src=\"ug-map-burkina_faso.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Lf,)l>R<|I",
@@ -783,7 +876,10 @@
             "data": "",
             "fields": [
                 "Burundi",
-                "Democratic Republic of the Congo, Tanzania, Rwanda"
+                "Democratic Republic of the Congo, Tanzania, Rwanda",
+                "<img src=\"ug-map-burundi.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "F6jo|-6I~A",
@@ -799,7 +895,10 @@
             "data": "",
             "fields": [
                 "Cambodia",
-                "Thailand, Laos, Vietnam"
+                "Thailand, Laos, Vietnam",
+                "<img src=\"ug-map-cambodia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "z0QOjl`#U>",
@@ -815,7 +914,10 @@
             "data": "",
             "fields": [
                 "Cameroon",
-                "Chad, Gabon, Equatorial Guinea, Nigeria, Central African Republic, Republic of the Congo"
+                "Chad, Gabon, Equatorial Guinea, Nigeria, Central African Republic, Republic of the Congo",
+                "<img src=\"ug-map-cameroon.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "PCFK(_k3Pt",
@@ -830,7 +932,10 @@
             "data": "",
             "fields": [
                 "Canada",
-                "United States of America"
+                "United States of America",
+                "<img src=\"ug-map-canada.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "BA:Bd*/43X",
@@ -845,7 +950,10 @@
             "data": "",
             "fields": [
                 "Central African Republic",
-                "Republic of the Congo, Chad, Cameroon, Sudan, South Sudan, Democratic Republic of the Congo"
+                "Republic of the Congo, Chad, Cameroon, Sudan, South Sudan, Democratic Republic of the Congo",
+                "<img src=\"ug-map-central_african_republic.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "o[@ZqT0aXj",
@@ -860,7 +968,10 @@
             "data": "",
             "fields": [
                 "Chad",
-                "Niger, Nigeria, Sudan, Libya, Cameroon, Central African Republic"
+                "Niger, Nigeria, Sudan, Libya, Cameroon, Central African Republic",
+                "<img src=\"ug-map-chad.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "inQGdx,KY~",
@@ -875,7 +986,10 @@
             "data": "",
             "fields": [
                 "Chile",
-                "Argentina, Bolivia, Peru"
+                "Argentina, Bolivia, Peru",
+                "<img src=\"ug-map-chile.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "kd!(Wui:,|",
@@ -890,7 +1004,10 @@
             "data": "",
             "fields": [
                 "China",
-                "Laos, Myanmar, Kyrgyzstan, Vietnam, Tajikistan, India, Bhutan, Afghanistan, Kazakhstan, Russia, Pakistan, Nepal, Mongolia, North Korea"
+                "Laos, Myanmar, Kyrgyzstan, Vietnam, Tajikistan, India, Bhutan, Afghanistan, Kazakhstan, Russia, Pakistan, Nepal, Mongolia, North Korea",
+                "<img src=\"ug-map-china.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "CtodXK)WAz",
@@ -905,7 +1022,10 @@
             "data": "",
             "fields": [
                 "Colombia",
-                "Venezuela, Panama, Peru, Ecuador, Brazil"
+                "Venezuela, Panama, Peru, Ecuador, Brazil",
+                "<img src=\"ug-map-colombia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "F3tSc=7[+<",
@@ -920,7 +1040,10 @@
             "data": "",
             "fields": [
                 "Costa Rica",
-                "Nicaragua, Panama"
+                "Nicaragua, Panama",
+                "<img src=\"ug-map-costa_rica.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "o>+(&C}<sm",
@@ -935,7 +1058,10 @@
             "data": "",
             "fields": [
                 "Croatia",
-                "Hungary, Bosnia and Herzegovina, Montenegro, Serbia, Slovenia"
+                "Hungary, Bosnia and Herzegovina, Montenegro, Serbia, Slovenia",
+                "<img src=\"ug-map-croatia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "p_9@C-|o$+",
@@ -952,7 +1078,10 @@
             "data": "",
             "fields": [
                 "Cuba",
-                "United States of America"
+                "United States of America",
+                "<img src=\"ug-map-cuba.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "lP.$*Q2eJf",
@@ -968,7 +1097,10 @@
             "data": "",
             "fields": [
                 "Czech Republic",
-                "Slovakia, Poland, Germany, Austria"
+                "Slovakia, Poland, Germany, Austria",
+                "<img src=\"ug-map-czech_republic.png\" />",
+                "Also known as Czechia.",
+                ""
             ],
             "flags": 0,
             "guid": "k/K{sfg|WT",
@@ -984,7 +1116,10 @@
             "data": "",
             "fields": [
                 "Democratic Republic of the Congo",
-                "Tanzania, Angola, Burundi, Central African Republic, Republic of the Congo, Rwanda, Uganda, Zambia, South Sudan"
+                "Tanzania, Angola, Burundi, Central African Republic, Republic of the Congo, Rwanda, Uganda, Zambia, South Sudan",
+                "<img src=\"ug-map-democratic_republic_of_the_congo.png\" />",
+                "Formerly Zaire.",
+                ""
             ],
             "flags": 0,
             "guid": "B.>n.oV&yB",
@@ -999,7 +1134,10 @@
             "data": "",
             "fields": [
                 "Denmark",
-                "Germany"
+                "Germany",
+                "<img src=\"ug-map-denmark.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "BQ/yZow~et",
@@ -1015,7 +1153,10 @@
             "data": "",
             "fields": [
                 "Djibouti",
-                "Somalia, Ethiopia, Eritrea"
+                "Somalia, Ethiopia, Eritrea",
+                "<img src=\"ug-map-djibouti.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "ti-n79iKwV",
@@ -1031,7 +1172,10 @@
             "data": "",
             "fields": [
                 "Dominican Republic",
-                "Haiti"
+                "Haiti",
+                "<img src=\"ug-map-dominican_republic.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "em-I^;%x|F",
@@ -1047,7 +1191,10 @@
             "data": "",
             "fields": [
                 "East Timor",
-                "Indonesia"
+                "Indonesia",
+                "<img src=\"ug-map-east_timor.png\" />",
+                "Also known as Timor-Leste.",
+                ""
             ],
             "flags": 0,
             "guid": "qiF_3>nm,5",
@@ -1063,7 +1210,10 @@
             "data": "",
             "fields": [
                 "Ecuador",
-                "Colombia, Peru"
+                "Colombia, Peru",
+                "<img src=\"ug-map-ecuador.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "E[r/r1XKOW",
@@ -1078,7 +1228,10 @@
             "data": "",
             "fields": [
                 "Egypt",
-                "Sudan, Libya, Israel, Palestine"
+                "Sudan, Libya, Israel, Palestine",
+                "<img src=\"ug-map-egypt.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "C&c,@kIqLE",
@@ -1095,7 +1248,10 @@
             "data": "",
             "fields": [
                 "El Salvador",
-                "Honduras, Guatemala"
+                "Honduras, Guatemala",
+                "<img src=\"ug-map-el_salvador.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "@0&/pF3cz",
@@ -1110,7 +1266,10 @@
             "data": "",
             "fields": [
                 "Equatorial Guinea",
-                "Cameroon, Gabon"
+                "Cameroon, Gabon",
+                "<img src=\"ug-map-equatorial_guinea.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "wGJ:^?Q[.}",
@@ -1125,7 +1284,10 @@
             "data": "",
             "fields": [
                 "Eritrea",
-                "Ethiopia, Djibouti, Sudan"
+                "Ethiopia, Djibouti, Sudan",
+                "<img src=\"ug-map-eritrea.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Bp.u+)rEY%",
@@ -1141,7 +1303,10 @@
             "data": "",
             "fields": [
                 "Estonia",
-                "Latvia, Russia"
+                "Latvia, Russia",
+                "<img src=\"ug-map-estonia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "l;36=)BoF]",
@@ -1157,7 +1322,10 @@
             "data": "",
             "fields": [
                 "Eswatini",
-                "Mozambique, South Africa"
+                "Mozambique, South Africa",
+                "<img src=\"ug-map-eswatini.png\" />",
+                "Known as Swaziland until 2018.",
+                ""
             ],
             "flags": 0,
             "guid": "q5{pwsz|*P",
@@ -1172,7 +1340,10 @@
             "data": "",
             "fields": [
                 "Ethiopia",
-                "Sudan, Djibouti, Somalia, Eritrea, South Sudan, Kenya"
+                "Sudan, Djibouti, Somalia, Eritrea, South Sudan, Kenya",
+                "<img src=\"ug-map-ethiopia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "ss}:^)<>J;",
@@ -1188,7 +1359,10 @@
             "data": "",
             "fields": [
                 "Finland",
-                "Russia, Sweden, Norway"
+                "Russia, Sweden, Norway",
+                "<img src=\"ug-map-finland.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "r(/1uyiC*S",
@@ -1204,7 +1378,10 @@
             "data": "",
             "fields": [
                 "France",
-                "Belgium, Germany, Monaco, Spain, Switzerland, Luxembourg, Italy, Andorra"
+                "Belgium, Germany, Monaco, Spain, Switzerland, Luxembourg, Italy, Andorra",
+                "<img src=\"ug-map-france.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "QyTf!1Xy6e",
@@ -1221,7 +1398,10 @@
             "data": "",
             "fields": [
                 "French Guiana",
-                "Suriname, Brazil"
+                "Suriname, Brazil",
+                "<img src=\"ug-map-french_guiana.png\" />",
+                "Overseas department of France.",
+                ""
             ],
             "flags": 0,
             "guid": "PN52([z<IJ",
@@ -1235,7 +1415,10 @@
             "data": "",
             "fields": [
                 "Gabon",
-                "Republic of the Congo, Equatorial Guinea, Cameroon"
+                "Republic of the Congo, Equatorial Guinea, Cameroon",
+                "<img src=\"ug-map-gabon.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "oG&)fo7&Ma",
@@ -1250,7 +1433,10 @@
             "data": "",
             "fields": [
                 "Georgia",
-                "Turkey, Azerbaijan, Russia, Armenia"
+                "Turkey, Azerbaijan, Russia, Armenia",
+                "<img src=\"ug-map-georgia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "d/`B%2IEB&",
@@ -1265,7 +1451,10 @@
             "data": "",
             "fields": [
                 "Germany",
-                "Netherlands, Denmark, France, Poland, Switzerland, Czech Republic, Austria, Belgium, Luxembourg"
+                "Netherlands, Denmark, France, Poland, Switzerland, Czech Republic, Austria, Belgium, Luxembourg",
+                "<img src=\"ug-map-germany.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "QLtf6asj3U",
@@ -1281,7 +1470,10 @@
             "data": "",
             "fields": [
                 "Ghana",
-                "Togo, Burkina Faso, Ivory Coast"
+                "Togo, Burkina Faso, Ivory Coast",
+                "<img src=\"ug-map-ghana.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "wH6FIWqD9i",
@@ -1297,7 +1489,10 @@
             "data": "",
             "fields": [
                 "Gibraltar",
-                "Spain"
+                "Spain",
+                "<img src=\"ug-map-gibraltar.png\" />",
+                "Overseas territory of the United Kingdom.",
+                ""
             ],
             "flags": 0,
             "guid": "xtS(X9X/L-",
@@ -1312,7 +1507,10 @@
             "data": "",
             "fields": [
                 "Greece",
-                "Turkey, Albania, Bulgaria, North Macedonia"
+                "Turkey, Albania, Bulgaria, North Macedonia",
+                "<img src=\"ug-map-greece.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "crKp]ufB:;",
@@ -1329,7 +1527,10 @@
             "data": "",
             "fields": [
                 "Guatemala",
-                "Belize, Honduras, Mexico, El Salvador"
+                "Belize, Honduras, Mexico, El Salvador",
+                "<img src=\"ug-map-guatemala.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "AsQ3QU4/(U",
@@ -1344,7 +1545,10 @@
             "data": "",
             "fields": [
                 "Guinea",
-                "Sierra Leone, Ivory Coast, Guinea-Bissau, Liberia, Mali, Senegal"
+                "Sierra Leone, Ivory Coast, Guinea-Bissau, Liberia, Mali, Senegal",
+                "<img src=\"ug-map-guinea.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "s_D4?de]1!",
@@ -1360,7 +1564,10 @@
             "data": "",
             "fields": [
                 "Guinea-Bissau",
-                "Senegal, Guinea"
+                "Senegal, Guinea",
+                "<img src=\"ug-map-guinea-bissau.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "b93*mP?0tY",
@@ -1376,7 +1583,10 @@
             "data": "",
             "fields": [
                 "Guyana",
-                "Suriname, Venezuela, Brazil"
+                "Suriname, Venezuela, Brazil",
+                "<img src=\"ug-map-guyana.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "jXjm&,u[WN",
@@ -1391,7 +1601,10 @@
             "data": "",
             "fields": [
                 "Haiti",
-                "Dominican Republic"
+                "Dominican Republic",
+                "<img src=\"ug-map-haiti.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "u)>e+1?K1}",
@@ -1407,7 +1620,10 @@
             "data": "",
             "fields": [
                 "Honduras",
-                "Guatemala, El Salvador, Nicaragua"
+                "Guatemala, El Salvador, Nicaragua",
+                "<img src=\"ug-map-honduras.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "kIDiLU/:=g",
@@ -1422,7 +1638,10 @@
             "data": "",
             "fields": [
                 "Hungary",
-                "Serbia, Slovakia, Slovenia, Croatia, Austria, Ukraine, Romania"
+                "Serbia, Slovakia, Slovenia, Croatia, Austria, Ukraine, Romania",
+                "<img src=\"ug-map-hungary.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "G;QUB`<^HC",
@@ -1438,7 +1657,10 @@
             "data": "",
             "fields": [
                 "India",
-                "China, Bangladesh, Bhutan, Myanmar, Nepal, Pakistan"
+                "China, Bangladesh, Bhutan, Myanmar, Nepal, Pakistan",
+                "<img src=\"ug-map-india.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "n)qZK*R[{M",
@@ -1453,7 +1675,10 @@
             "data": "",
             "fields": [
                 "Indonesia",
-                "Papua New Guinea, East Timor, Malaysia"
+                "Papua New Guinea, East Timor, Malaysia",
+                "<img src=\"ug-map-indonesia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "y~^)s@M~?p",
@@ -1469,7 +1694,10 @@
             "data": "",
             "fields": [
                 "Iran",
-                "Turkmenistan, Pakistan, Azerbaijan, Armenia, Turkey, Afghanistan, Iraq"
+                "Turkmenistan, Pakistan, Azerbaijan, Armenia, Turkey, Afghanistan, Iraq",
+                "<img src=\"ug-map-iran.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "p(15V7@F0r",
@@ -1485,7 +1713,10 @@
             "data": "",
             "fields": [
                 "Iraq",
-                "Iran, Jordan, Kuwait, Saudi Arabia, Turkey, Syria"
+                "Iran, Jordan, Kuwait, Saudi Arabia, Turkey, Syria",
+                "<img src=\"ug-map-iraq.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "ln.kw}L}tz",
@@ -1501,7 +1732,10 @@
             "data": "",
             "fields": [
                 "Ireland",
-                "United Kingdom"
+                "United Kingdom",
+                "<img src=\"ug-map-ireland.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "qr`5nA-E^x",
@@ -1517,7 +1751,10 @@
             "data": "",
             "fields": [
                 "Israel",
-                "Jordan, Lebanon, Palestine, Syria, Egypt"
+                "Jordan, Lebanon, Palestine, Syria, Egypt",
+                "<img src=\"ug-map-israel.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "raQ8|TLUiM",
@@ -1534,7 +1771,10 @@
             "data": "",
             "fields": [
                 "Italy",
-                "Austria, Vatican City, Switzerland, Slovenia, San Marino, France"
+                "Austria, Vatican City, Switzerland, Slovenia, San Marino, France",
+                "<img src=\"ug-map-italy.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "dT93Kt|(K^",
@@ -1551,7 +1791,10 @@
             "data": "",
             "fields": [
                 "Ivory Coast",
-                "Ghana, Mali, Liberia, Burkina Faso, Guinea"
+                "Ghana, Mali, Liberia, Burkina Faso, Guinea",
+                "<img src=\"ug-map-ivory_coast.png\" />",
+                "Officially Côte d'Ivoire.",
+                ""
             ],
             "flags": 0,
             "guid": "iOUh.2g,o",
@@ -1567,7 +1810,10 @@
             "data": "",
             "fields": [
                 "Jordan",
-                "Palestine, Iraq, Israel, Syria, Saudi Arabia"
+                "Palestine, Iraq, Israel, Syria, Saudi Arabia",
+                "<img src=\"ug-map-jordan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "cy_F{!;17*",
@@ -1583,7 +1829,10 @@
             "data": "",
             "fields": [
                 "Kazakhstan",
-                "China, Uzbekistan, Turkmenistan, Kyrgyzstan, Russia"
+                "China, Uzbekistan, Turkmenistan, Kyrgyzstan, Russia",
+                "<img src=\"ug-map-kazakhstan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "IK$%y^KZUS",
@@ -1598,7 +1847,10 @@
             "data": "",
             "fields": [
                 "Kenya",
-                "Somalia, Uganda, Tanzania, Ethiopia, South Sudan"
+                "Somalia, Uganda, Tanzania, Ethiopia, South Sudan",
+                "<img src=\"ug-map-kenya.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "BQ4uY};8Sc",
@@ -1614,7 +1866,10 @@
             "data": "",
             "fields": [
                 "Kosovo",
-                "North Macedonia, Albania, Serbia, Montenegro"
+                "North Macedonia, Albania, Serbia, Montenegro",
+                "<img src=\"ug-map-kosovo.png\" />",
+                "Partially recognised state claimed by Serbia.",
+                ""
             ],
             "flags": 0,
             "guid": "p+$[|aeRpt",
@@ -1629,7 +1884,10 @@
             "data": "",
             "fields": [
                 "Kuwait",
-                "Saudi Arabia, Iraq"
+                "Saudi Arabia, Iraq",
+                "<img src=\"ug-map-kuwait.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "H*1G*mt9VR",
@@ -1645,7 +1903,10 @@
             "data": "",
             "fields": [
                 "Kyrgyzstan",
-                "Kazakhstan, China, Tajikistan, Uzbekistan"
+                "Kazakhstan, China, Tajikistan, Uzbekistan",
+                "<img src=\"ug-map-kyrgyzstan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "K=*(gW}&q#",
@@ -1660,7 +1921,10 @@
             "data": "",
             "fields": [
                 "Laos",
-                "Thailand, Cambodia, China, Myanmar, Vietnam"
+                "Thailand, Cambodia, China, Myanmar, Vietnam",
+                "<img src=\"ug-map-laos.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "vF@9Xg1fQ)",
@@ -1676,7 +1940,10 @@
             "data": "",
             "fields": [
                 "Latvia",
-                "Lithuania, Russia, Belarus, Estonia"
+                "Lithuania, Russia, Belarus, Estonia",
+                "<img src=\"ug-map-latvia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "jn~6G]opL6",
@@ -1692,7 +1959,10 @@
             "data": "",
             "fields": [
                 "Lebanon",
-                "Syria, Israel"
+                "Syria, Israel",
+                "<img src=\"ug-map-lebanon.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "uWvJ=H-3n@",
@@ -1709,7 +1979,10 @@
             "data": "",
             "fields": [
                 "Lesotho",
-                "South Africa"
+                "South Africa",
+                "<img src=\"ug-map-lesotho.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "M=gEz5/vRU",
@@ -1724,7 +1997,10 @@
             "data": "",
             "fields": [
                 "Liberia",
-                "Ivory Coast, Sierra Leone, Guinea"
+                "Ivory Coast, Sierra Leone, Guinea",
+                "<img src=\"ug-map-liberia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "w%uy{tJ7Bq",
@@ -1740,7 +2016,10 @@
             "data": "",
             "fields": [
                 "Libya",
-                "Tunisia, Algeria, Chad, Niger, Sudan, Egypt"
+                "Tunisia, Algeria, Chad, Niger, Sudan, Egypt",
+                "<img src=\"ug-map-libya.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "L6Sbz}_N|;",
@@ -1756,7 +2035,10 @@
             "data": "",
             "fields": [
                 "Liechtenstein",
-                "Switzerland, Austria"
+                "Switzerland, Austria",
+                "<img src=\"ug-map-liechtenstein.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "bu/lhU(Ik^",
@@ -1771,7 +2053,10 @@
             "data": "",
             "fields": [
                 "Lithuania",
-                "Latvia, Belarus, Russia, Poland"
+                "Latvia, Belarus, Russia, Poland",
+                "<img src=\"ug-map-lithuania.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "cS{iN9*%W~",
@@ -1787,7 +2072,10 @@
             "data": "",
             "fields": [
                 "Luxembourg",
-                "Belgium, France, Germany"
+                "Belgium, France, Germany",
+                "<img src=\"ug-map-luxembourg.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "mu_8E9E;TH",
@@ -1803,7 +2091,10 @@
             "data": "",
             "fields": [
                 "Malawi",
-                "Mozambique, Zambia, Tanzania"
+                "Mozambique, Zambia, Tanzania",
+                "<img src=\"ug-map-malawi.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "v$N)gI*@&{",
@@ -1819,7 +2110,10 @@
             "data": "",
             "fields": [
                 "Malaysia",
-                "Thailand, Brunei, Indonesia"
+                "Thailand, Brunei, Indonesia",
+                "<img src=\"ug-map-malaysia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "p`H)c9/bG3",
@@ -1835,7 +2129,10 @@
             "data": "",
             "fields": [
                 "Mali",
-                "Guinea, Algeria, Burkina Faso, Ivory Coast, Mauritania, Niger, Senegal"
+                "Guinea, Algeria, Burkina Faso, Ivory Coast, Mauritania, Niger, Senegal",
+                "<img src=\"ug-map-mali.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "wOjb<_k4c2",
@@ -1851,7 +2148,10 @@
             "data": "",
             "fields": [
                 "Mauritania",
-                "Senegal, Algeria, Mali, Sahrawi Arab Democratic Republic"
+                "Senegal, Algeria, Mali, Sahrawi Arab Democratic Republic",
+                "<img src=\"ug-map-mauritania.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "w}&g{@#s>o",
@@ -1867,7 +2167,10 @@
             "data": "",
             "fields": [
                 "Mexico",
-                "Belize, Guatemala, United States of America"
+                "Belize, Guatemala, United States of America",
+                "<img src=\"ug-map-mexico.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "EFT!7}z9W`",
@@ -1882,7 +2185,10 @@
             "data": "",
             "fields": [
                 "Moldova",
-                "Ukraine, Romania"
+                "Ukraine, Romania",
+                "<img src=\"ug-map-moldova.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "el-5yJ=#va",
@@ -1897,7 +2203,10 @@
             "data": "",
             "fields": [
                 "Monaco",
-                "France"
+                "France",
+                "<img src=\"ug-map-monaco.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "h(}*_h(E:V",
@@ -1913,7 +2222,10 @@
             "data": "",
             "fields": [
                 "Mongolia",
-                "China, Russia"
+                "China, Russia",
+                "<img src=\"ug-map-mongolia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "y5T;jJbw#C",
@@ -1928,7 +2240,10 @@
             "data": "",
             "fields": [
                 "Montenegro",
-                "Bosnia and Herzegovina, Croatia, Serbia, Albania, Kosovo"
+                "Bosnia and Herzegovina, Croatia, Serbia, Albania, Kosovo",
+                "<img src=\"ug-map-montenegro.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "lLmc0|?&WY",
@@ -1944,7 +2259,10 @@
             "data": "",
             "fields": [
                 "Morocco",
-                "Algeria, Sahrawi Arab Democratic Republic, Spain"
+                "Algeria, Sahrawi Arab Democratic Republic, Spain",
+                "<img src=\"ug-map-morocco.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Q5{|#Mk-Zq",
@@ -1960,7 +2278,10 @@
             "data": "",
             "fields": [
                 "Mozambique",
-                "Malawi, Eswatini, Tanzania, Zambia, Zimbabwe, South Africa"
+                "Malawi, Eswatini, Tanzania, Zambia, Zimbabwe, South Africa",
+                "<img src=\"ug-map-mozambique.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "IQ:QU$(z1;",
@@ -1976,7 +2297,10 @@
             "data": "",
             "fields": [
                 "Myanmar",
-                "China, India, Laos, Thailand, Bangladesh"
+                "China, India, Laos, Thailand, Bangladesh",
+                "<img src=\"ug-map-myanmar.png\" />",
+                "Also known as Burma.",
+                ""
             ],
             "flags": 0,
             "guid": "o~BEqi2F9!",
@@ -1992,7 +2316,10 @@
             "data": "",
             "fields": [
                 "Namibia",
-                "Angola, Zambia, South Africa, Botswana"
+                "Angola, Zambia, South Africa, Botswana",
+                "<img src=\"ug-map-namibia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "l3v=])Uu[O",
@@ -2007,7 +2334,10 @@
             "data": "",
             "fields": [
                 "Nepal",
-                "China, India"
+                "China, India",
+                "<img src=\"ug-map-nepal.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "brhV:-8HaI",
@@ -2022,7 +2352,10 @@
             "data": "",
             "fields": [
                 "Netherlands",
-                "Belgium, Germany"
+                "Belgium, Germany",
+                "<img src=\"ug-map-netherlands.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "yQ<8=8,&r[",
@@ -2038,7 +2371,10 @@
             "data": "",
             "fields": [
                 "Nicaragua",
-                "Honduras, Costa Rica"
+                "Honduras, Costa Rica",
+                "<img src=\"ug-map-nicaragua.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "i{qjW!Zwz-",
@@ -2053,7 +2389,10 @@
             "data": "",
             "fields": [
                 "Niger",
-                "Nigeria, Mali, Libya, Algeria, Benin, Burkina Faso, Chad"
+                "Nigeria, Mali, Libya, Algeria, Benin, Burkina Faso, Chad",
+                "<img src=\"ug-map-niger.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "IZgte{IXIX",
@@ -2069,7 +2408,10 @@
             "data": "",
             "fields": [
                 "Nigeria",
-                "Cameroon, Niger, Chad, Benin"
+                "Cameroon, Niger, Chad, Benin",
+                "<img src=\"ug-map-nigeria.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "A}=#Gfvfi1",
@@ -2085,7 +2427,10 @@
             "data": "",
             "fields": [
                 "North Korea",
-                "South Korea, Russia, China"
+                "South Korea, Russia, China",
+                "<img src=\"ug-map-north_korea.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "eMz[rcfKYZ",
@@ -2100,7 +2445,10 @@
             "data": "",
             "fields": [
                 "North Macedonia",
-                "Serbia, Kosovo, Bulgaria, Albania, Greece"
+                "Serbia, Kosovo, Bulgaria, Albania, Greece",
+                "<img src=\"ug-map-north_macedonia.png\" />",
+                "Formerly known as Macedonia.",
+                ""
             ],
             "flags": 0,
             "guid": "Qb.J[GVoU=",
@@ -2115,7 +2463,10 @@
             "data": "",
             "fields": [
                 "Norway",
-                "Russia, Sweden, Finland"
+                "Russia, Sweden, Finland",
+                "<img src=\"ug-map-norway.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "c)<zi=UgT!",
@@ -2130,7 +2481,10 @@
             "data": "",
             "fields": [
                 "Oman",
-                "United Arab Emirates, Yemen, Saudi Arabia"
+                "United Arab Emirates, Yemen, Saudi Arabia",
+                "<img src=\"ug-map-oman.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "v~Op)@zYTw",
@@ -2146,7 +2500,10 @@
             "data": "",
             "fields": [
                 "Pakistan",
-                "India, Afghanistan, China, Iran"
+                "India, Afghanistan, China, Iran",
+                "<img src=\"ug-map-pakistan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "ows:lf(-q/",
@@ -2161,7 +2518,10 @@
             "data": "",
             "fields": [
                 "Palestine",
-                "Israel, Egypt, Jordan"
+                "Israel, Egypt, Jordan",
+                "<img src=\"ug-map-palestine.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "F~!g<DGpBN",
@@ -2178,7 +2538,10 @@
             "data": "",
             "fields": [
                 "Panama",
-                "Colombia, Costa Rica"
+                "Colombia, Costa Rica",
+                "<img src=\"ug-map-panama.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "fkJ7Hf-KfR",
@@ -2193,7 +2556,10 @@
             "data": "",
             "fields": [
                 "Papua New Guinea",
-                "Indonesia"
+                "Indonesia",
+                "<img src=\"ug-map-papua_new_guinea.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "foWlOu;ueo",
@@ -2208,7 +2574,10 @@
             "data": "",
             "fields": [
                 "Paraguay",
-                "Brazil, Argentina, Bolivia"
+                "Brazil, Argentina, Bolivia",
+                "<img src=\"ug-map-paraguay.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "hXhl9-X(O9",
@@ -2223,7 +2592,10 @@
             "data": "",
             "fields": [
                 "Peru",
-                "Colombia, Chile, Brazil, Bolivia, Ecuador"
+                "Colombia, Chile, Brazil, Bolivia, Ecuador",
+                "<img src=\"ug-map-peru.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "s0%9>+>JMr",
@@ -2238,7 +2610,10 @@
             "data": "",
             "fields": [
                 "Poland",
-                "Lithuania, Belarus, Czech Republic, Slovakia, Ukraine, Russia, Germany"
+                "Lithuania, Belarus, Czech Republic, Slovakia, Ukraine, Russia, Germany",
+                "<img src=\"ug-map-poland.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Re&p5A3||@",
@@ -2254,7 +2629,10 @@
             "data": "",
             "fields": [
                 "Portugal",
-                "Spain"
+                "Spain",
+                "<img src=\"ug-map-portugal.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "j(t=m*`>Y;",
@@ -2270,7 +2648,10 @@
             "data": "",
             "fields": [
                 "Qatar",
-                "Saudi Arabia"
+                "Saudi Arabia",
+                "<img src=\"ug-map-qatar.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "v*PPZ@j|I9",
@@ -2286,7 +2667,10 @@
             "data": "",
             "fields": [
                 "Republic of the Congo",
-                "Central African Republic, Democratic Republic of the Congo, Gabon, Angola, Cameroon"
+                "Central African Republic, Democratic Republic of the Congo, Gabon, Angola, Cameroon",
+                "<img src=\"ug-map-republic_of_the_congo.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "BcWt(E^q|R",
@@ -2301,7 +2685,10 @@
             "data": "",
             "fields": [
                 "Romania",
-                "Hungary, Moldova, Bulgaria, Ukraine, Serbia"
+                "Hungary, Moldova, Bulgaria, Ukraine, Serbia",
+                "<img src=\"ug-map-romania.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "t}8;ErhS])",
@@ -2317,7 +2704,10 @@
             "data": "",
             "fields": [
                 "Russia",
-                "Poland, Georgia, Azerbaijan, Belarus, Estonia, Finland, Latvia, Lithuania, Norway, Ukraine, Kazakhstan, China, North Korea, Mongolia"
+                "Poland, Georgia, Azerbaijan, Belarus, Estonia, Finland, Latvia, Lithuania, Norway, Ukraine, Kazakhstan, China, North Korea, Mongolia",
+                "<img src=\"ug-map-russia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "el_W?[,h]B",
@@ -2332,7 +2722,10 @@
             "data": "",
             "fields": [
                 "Rwanda",
-                "Tanzania, Burundi, Democratic Republic of the Congo, Uganda"
+                "Tanzania, Burundi, Democratic Republic of the Congo, Uganda",
+                "<img src=\"ug-map-rwanda.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "n/l~TZmkpR",
@@ -2348,7 +2741,10 @@
             "data": "",
             "fields": [
                 "Sahrawi Arab Democratic Republic",
-                "Algeria, Morocco, Mauritania"
+                "Algeria, Morocco, Mauritania",
+                "<img src=\"ug-map-sahrawi_arab_democratic_republic.png\" />",
+                "Partially recognised state claimed by Morocco.",
+                ""
             ],
             "flags": 0,
             "guid": "bR*ncEe/Fu",
@@ -2363,7 +2759,10 @@
             "data": "",
             "fields": [
                 "Saint Martin",
-                "Sint Maarten"
+                "Sint Maarten",
+                "<img src=\"ug-map-saint_martin.png\" />",
+                "Overseas territory of France.",
+                ""
             ],
             "flags": 0,
             "guid": "P:Pr6j>a=w",
@@ -2378,7 +2777,10 @@
             "data": "",
             "fields": [
                 "San Marino",
-                "Italy"
+                "Italy",
+                "<img src=\"ug-map-san_marino.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "pt2z[Ul:/n",
@@ -2393,7 +2795,10 @@
             "data": "",
             "fields": [
                 "Saudi Arabia",
-                "Oman, United Arab Emirates, Yemen, Iraq, Jordan, Kuwait, Qatar"
+                "Oman, United Arab Emirates, Yemen, Iraq, Jordan, Kuwait, Qatar",
+                "<img src=\"ug-map-saudi_arabia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "mzM%B.nL<A",
@@ -2409,7 +2814,10 @@
             "data": "",
             "fields": [
                 "Senegal",
-                "Mauritania, Guinea-Bissau, Mali, The Gambia, Guinea"
+                "Mauritania, Guinea-Bissau, Mali, The Gambia, Guinea",
+                "<img src=\"ug-map-senegal.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "n)[~Z}}S*F",
@@ -2425,7 +2833,10 @@
             "data": "",
             "fields": [
                 "Serbia",
-                "Albania, Romania, Montenegro, North Macedonia, Kosovo, Croatia, Bulgaria, Bosnia and Herzegovina, Hungary"
+                "Albania, Romania, Montenegro, North Macedonia, Kosovo, Croatia, Bulgaria, Bosnia and Herzegovina, Hungary",
+                "<img src=\"ug-map-serbia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "oqr|uA[UlY",
@@ -2440,7 +2851,10 @@
             "data": "",
             "fields": [
                 "Sierra Leone",
-                "Guinea, Liberia"
+                "Guinea, Liberia",
+                "<img src=\"ug-map-sierra_leone.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "o4|fRD-axJ",
@@ -2456,7 +2870,10 @@
             "data": "",
             "fields": [
                 "Sint Maarten",
-                "Saint Martin"
+                "Saint Martin",
+                "<img src=\"ug-map-sint_maarten.png\" />",
+                "Constituent country of the Kingdom of the Netherlands.",
+                ""
             ],
             "flags": 0,
             "guid": "AG<kjw/@J{",
@@ -2471,7 +2888,10 @@
             "data": "",
             "fields": [
                 "Slovakia",
-                "Czech Republic, Poland, Hungary, Ukraine, Austria"
+                "Czech Republic, Poland, Hungary, Ukraine, Austria",
+                "<img src=\"ug-map-slovakia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "lX8)0!.|5J",
@@ -2487,7 +2907,10 @@
             "data": "",
             "fields": [
                 "Slovenia",
-                "Austria, Hungary, Italy, Croatia"
+                "Austria, Hungary, Italy, Croatia",
+                "<img src=\"ug-map-slovenia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Cy@ITwpS2O",
@@ -2504,7 +2927,10 @@
             "data": "",
             "fields": [
                 "Somalia",
-                "Kenya, Ethiopia, Djibouti"
+                "Kenya, Ethiopia, Djibouti",
+                "<img src=\"ug-map-somalia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "ozGn~4*=;5",
@@ -2520,7 +2946,10 @@
             "data": "",
             "fields": [
                 "South Africa",
-                "Eswatini, Namibia, Zimbabwe, Mozambique, Lesotho, Botswana"
+                "Eswatini, Namibia, Zimbabwe, Mozambique, Lesotho, Botswana",
+                "<img src=\"ug-map-south_africa.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "p`W=z@l][u",
@@ -2535,7 +2964,10 @@
             "data": "",
             "fields": [
                 "South Korea",
-                "North Korea"
+                "North Korea",
+                "<img src=\"ug-map-south_korea.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "lMFTX{f(vv",
@@ -2550,7 +2982,10 @@
             "data": "",
             "fields": [
                 "South Sudan",
-                "Uganda, Ethiopia, Democratic Republic of the Congo, Kenya, Central African Republic, Sudan"
+                "Uganda, Ethiopia, Democratic Republic of the Congo, Kenya, Central African Republic, Sudan",
+                "<img src=\"ug-map-south_sudan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "nq.lI%~pc?",
@@ -2566,7 +3001,10 @@
             "data": "",
             "fields": [
                 "Spain",
-                "Andorra, Portugal, Morocco, Gibraltar, France"
+                "Andorra, Portugal, Morocco, Gibraltar, France",
+                "<img src=\"ug-map-spain.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "psHlU+Bgp`",
@@ -2583,7 +3021,10 @@
             "data": "",
             "fields": [
                 "Sudan",
-                "Egypt, Central African Republic, Chad, Eritrea, Ethiopia, Libya, South Sudan"
+                "Egypt, Central African Republic, Chad, Eritrea, Ethiopia, Libya, South Sudan",
+                "<img src=\"ug-map-sudan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "E6^*0FSyCo",
@@ -2598,7 +3039,10 @@
             "data": "",
             "fields": [
                 "Suriname",
-                "Guyana, French Guiana, Brazil"
+                "Guyana, French Guiana, Brazil",
+                "<img src=\"ug-map-suriname.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Jj))kMZvX{",
@@ -2613,7 +3057,10 @@
             "data": "",
             "fields": [
                 "Sweden",
-                "Norway, Finland"
+                "Norway, Finland",
+                "<img src=\"ug-map-sweden.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "n3oqCGJJ6f",
@@ -2629,7 +3076,10 @@
             "data": "",
             "fields": [
                 "Switzerland",
-                "Liechtenstein, France, Germany, Austria, Italy"
+                "Liechtenstein, France, Germany, Austria, Italy",
+                "<img src=\"ug-map-switzerland.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "kJt/s#S@IF",
@@ -2644,7 +3094,10 @@
             "data": "",
             "fields": [
                 "Syria",
-                "Jordan, Lebanon, Turkey, Israel, Iraq"
+                "Jordan, Lebanon, Turkey, Israel, Iraq",
+                "<img src=\"ug-map-syria.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "xb;24ttdck",
@@ -2661,7 +3114,10 @@
             "data": "",
             "fields": [
                 "Tajikistan",
-                "China, Uzbekistan, Kyrgyzstan, Afghanistan"
+                "China, Uzbekistan, Kyrgyzstan, Afghanistan",
+                "<img src=\"ug-map-tajikistan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "P;2)#qeEu$",
@@ -2676,7 +3132,10 @@
             "data": "",
             "fields": [
                 "Tanzania",
-                "Democratic Republic of the Congo, Zambia, Uganda, Rwanda, Mozambique, Malawi, Kenya, Burundi"
+                "Democratic Republic of the Congo, Zambia, Uganda, Rwanda, Mozambique, Malawi, Kenya, Burundi",
+                "<img src=\"ug-map-tanzania.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "ci%>8u!5Mn",
@@ -2692,7 +3151,10 @@
             "data": "",
             "fields": [
                 "Thailand",
-                "Malaysia, Myanmar, Laos, Cambodia"
+                "Malaysia, Myanmar, Laos, Cambodia",
+                "<img src=\"ug-map-thailand.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "tXut{wb9_m",
@@ -2708,7 +3170,10 @@
             "data": "",
             "fields": [
                 "The Gambia",
-                "Senegal"
+                "Senegal",
+                "<img src=\"ug-map-the_gambia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "A&pu*)sm*n",
@@ -2724,7 +3189,10 @@
             "data": "",
             "fields": [
                 "Togo",
-                "Burkina Faso, Ghana, Benin"
+                "Burkina Faso, Ghana, Benin",
+                "<img src=\"ug-map-togo.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "J/$@ET`hir",
@@ -2740,7 +3208,10 @@
             "data": "",
             "fields": [
                 "Tunisia",
-                "Algeria, Libya"
+                "Algeria, Libya",
+                "<img src=\"ug-map-tunisia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "x3vu0cWK*&",
@@ -2756,7 +3227,10 @@
             "data": "",
             "fields": [
                 "Turkey",
-                "Azerbaijan, Greece, Syria, Georgia, Iraq, Iran, Armenia, Bulgaria"
+                "Azerbaijan, Greece, Syria, Georgia, Iraq, Iran, Armenia, Bulgaria",
+                "<img src=\"ug-map-turkey.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "FM&e]s0~g5",
@@ -2773,7 +3247,10 @@
             "data": "",
             "fields": [
                 "Turkmenistan",
-                "Afghanistan, Uzbekistan, Iran, Kazakhstan"
+                "Afghanistan, Uzbekistan, Iran, Kazakhstan",
+                "<img src=\"ug-map-turkmenistan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "QhW-:5nCo+",
@@ -2788,7 +3265,10 @@
             "data": "",
             "fields": [
                 "Uganda",
-                "Kenya, Tanzania, South Sudan, Rwanda, Democratic Republic of the Congo"
+                "Kenya, Tanzania, South Sudan, Rwanda, Democratic Republic of the Congo",
+                "<img src=\"ug-map-uganda.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "w0]6.AshO>",
@@ -2804,7 +3284,10 @@
             "data": "",
             "fields": [
                 "Ukraine",
-                "Hungary, Romania, Russia, Slovakia, Belarus, Moldova, Poland"
+                "Hungary, Romania, Russia, Slovakia, Belarus, Moldova, Poland",
+                "<img src=\"ug-map-ukraine.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "KAR!h8TQUP",
@@ -2819,7 +3302,10 @@
             "data": "",
             "fields": [
                 "United Arab Emirates",
-                "Saudi Arabia, Oman"
+                "Saudi Arabia, Oman",
+                "<img src=\"ug-map-united_arab_emirates.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "gwTPCi:r!]",
@@ -2835,7 +3321,10 @@
             "data": "",
             "fields": [
                 "United Kingdom",
-                "Ireland"
+                "Ireland",
+                "<img src=\"ug-map-united_kingdom.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "HR#vBv/6R}",
@@ -2851,7 +3340,10 @@
             "data": "",
             "fields": [
                 "United States of America",
-                "Mexico, Canada, Cuba"
+                "Mexico, Canada, Cuba",
+                "<img src=\"ug-map-united_states_of_america.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "hCR3-ou?11",
@@ -2866,7 +3358,10 @@
             "data": "",
             "fields": [
                 "Uruguay",
-                "Brazil, Argentina"
+                "Brazil, Argentina",
+                "<img src=\"ug-map-uruguay.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "B^U@R}75ke",
@@ -2881,7 +3376,10 @@
             "data": "",
             "fields": [
                 "Uzbekistan",
-                "Tajikistan, Kazakhstan, Kyrgyzstan, Turkmenistan, Afghanistan"
+                "Tajikistan, Kazakhstan, Kyrgyzstan, Turkmenistan, Afghanistan",
+                "<img src=\"ug-map-uzbekistan.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "N=aJipA!}R",
@@ -2896,7 +3394,10 @@
             "data": "",
             "fields": [
                 "Vatican City",
-                "Italy"
+                "Italy",
+                "<img src=\"ug-map-vatican_city.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "C|~~`5&#cz",
@@ -2911,7 +3412,10 @@
             "data": "",
             "fields": [
                 "Venezuela",
-                "Guyana, Brazil, Colombia"
+                "Guyana, Brazil, Colombia",
+                "<img src=\"ug-map-venezuela.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "Nu`/OsPrb?",
@@ -2926,7 +3430,10 @@
             "data": "",
             "fields": [
                 "Vietnam",
-                "Cambodia, Laos, China"
+                "Cambodia, Laos, China",
+                "<img src=\"ug-map-vietnam.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "g..l@E:[P2",
@@ -2942,7 +3449,10 @@
             "data": "",
             "fields": [
                 "Yemen",
-                "Oman, Saudi Arabia"
+                "Oman, Saudi Arabia",
+                "<img src=\"ug-map-yemen.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "bT9W,}rdf=",
@@ -2958,7 +3468,10 @@
             "data": "",
             "fields": [
                 "Zambia",
-                "Malawi, Angola, Zimbabwe, Namibia, Tanzania, Mozambique, Democratic Republic of the Congo"
+                "Malawi, Angola, Zimbabwe, Namibia, Tanzania, Mozambique, Democratic Republic of the Congo",
+                "<img src=\"ug-map-zambia.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "t=v_}A0y99",
@@ -2974,7 +3487,10 @@
             "data": "",
             "fields": [
                 "Zimbabwe",
-                "South Africa, Botswana, Zambia, Mozambique"
+                "South Africa, Botswana, Zambia, Mozambique",
+                "<img src=\"ug-map-zimbabwe.png\" />",
+                "",
+                ""
             ],
             "flags": 0,
             "guid": "q{4B0c;D=H",
